@@ -1,0 +1,3205 @@
+{
+  "format": "skia-real-q1-fits-v1",
+  "rows": [
+    {
+      "file": "102019127_NEG598523367504401932_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 124885.25128846715,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 96,
+              "objective": 124885.25128846715,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 127538.07296706332,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 80,
+              "objective": 127538.07296706332,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E",
+            "source.e1"
+          ],
+          "chi2": 124885.25128846715,
+          "chi2_per_dof": 8.53916248126271,
+          "converged": true,
+          "dof": 14625,
+          "elapsed_seconds": 11.961458209028933,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.02795345904067817,
+            "lens.center_y": 0.14306904367390083,
+            "lens.e1": 0.4422459641027222,
+            "lens.e2": -0.038496843247436845,
+            "lens.gamma": 1.6010450288041105,
+            "lens.gamma1": -0.03078020595869352,
+            "lens.gamma2": -0.0353093976246785,
+            "lens.theta_E": 0.40001339509384126,
+            "source.R_sersic": 0.6953052882017308,
+            "source.amp": 3.684567250464316,
+            "source.center_x": -0.029109607110133967,
+            "source.center_y": 0.2583316896300274,
+            "source.e1": -0.4499979131499196,
+            "source.e2": -0.035245917630425116,
+            "source.n_sersic": 1.998929514748947
+          },
+          "prior_penalty": 0.0,
+          "status": 3
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 127561.74160374654,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 70,
+              "objective": 127577.72909345472,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 127829.96825086269,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 77,
+              "objective": 127845.96728576337,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E"
+          ],
+          "chi2": 127561.74160374654,
+          "chi2_per_dof": 8.72217036606814,
+          "converged": true,
+          "dof": 14625,
+          "elapsed_seconds": 8.859850082953926,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.03088469861664888,
+            "lens.center_y": 0.10808899903298763,
+            "lens.e1": 0.44989310834194535,
+            "lens.e2": -0.23622627946223626,
+            "lens.gamma": 1.6001564092277145,
+            "lens.gamma1": -0.0321364602681774,
+            "lens.gamma2": -0.1433750474735525,
+            "lens.theta_E": 0.4000052830006381,
+            "source.R_sersic": 0.6199950157696273,
+            "source.amp": 4.510578335458533,
+            "source.center_x": -0.0037601173095427993,
+            "source.center_y": 0.2286347427580893,
+            "source.e1": -0.4498311673113572,
+            "source.e2": 0.08179520949679607,
+            "source.n_sersic": 1.84166349503848
+          },
+          "prior_penalty": 15.987489708175417,
+          "status": 3
+        }
+      },
+      "id": "102019127_NEG598523367504401932",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102019127_NEG598523367504401932_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 1,
+        "ring_pixels": 7752,
+        "sigma_native_flux_per_pixel": 0.0029446550195805555,
+        "sky_native_flux_per_pixel": 0.00038179806142579764,
+        "usable_pixels": 14640
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.4031260805397494,
+        "ref_ell_comp_0": -0.17779462952313788,
+        "ref_ell_comp_1": 0.514460917353489,
+        "ref_shear_g1": -0.07303765214236743,
+        "ref_shear_g2": -0.127595321783582
+      },
+      "shape": [
+        121,
+        121
+      ]
+    },
+    {
+      "file": "102019586_NEG564463213499964061_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 671562.786597169,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 122,
+              "objective": 671562.786597169,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 529604.8399360818,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 56,
+              "objective": 529604.8399360818,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 529604.8399360818,
+          "chi2_per_dof": 36.20982086257909,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 11.374201499973424,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.10030894635833115,
+            "lens.center_y": 0.008833639756959557,
+            "lens.e1": -0.42370094061964336,
+            "lens.e2": -0.38175695403401716,
+            "lens.gamma": 1.602498161267795,
+            "lens.gamma1": -0.13688564878203419,
+            "lens.gamma2": -0.132830124765518,
+            "lens.theta_E": 0.40028967023326195,
+            "source.R_sersic": 0.586804286432233,
+            "source.amp": 3.747192432803084,
+            "source.center_x": 0.24613321129535684,
+            "source.center_y": 0.07269409117119142,
+            "source.e1": 0.33543318050106213,
+            "source.e2": 0.1971085452964637,
+            "source.n_sersic": 2.433291349457731
+          },
+          "prior_penalty": 0.0,
+          "status": 3
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 834071.0386793789,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 64,
+              "objective": 834086.9730367704,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 651997.2809260241,
+              "converged": false,
+              "message": "The maximum number of function evaluations is exceeded.",
+              "nfev": 200,
+              "objective": 652013.0190825257,
+              "start": 1,
+              "status": 0
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma2"
+          ],
+          "chi2": 651997.2809260241,
+          "chi2_per_dof": 44.57796259578997,
+          "converged": false,
+          "dof": 14626,
+          "elapsed_seconds": 16.691678041999694,
+          "message": "The maximum number of function evaluations is exceeded.",
+          "parameters": {
+            "lens.center_x": 0.08091783682588877,
+            "lens.center_y": -0.01025803207330914,
+            "lens.e1": -0.4463435219576389,
+            "lens.e2": -0.3905324075047674,
+            "lens.gamma": 1.603286545455899,
+            "lens.gamma1": -0.13189994457047013,
+            "lens.gamma2": -0.14999442596486517,
+            "lens.theta_E": 0.40098720226942736,
+            "source.R_sersic": 0.5736440430526675,
+            "source.amp": 4.57074706588081,
+            "source.center_x": 0.21492031129488756,
+            "source.center_y": 0.04832267943824121,
+            "source.e1": 0.3447961094367142,
+            "source.e2": 0.23985729547878876,
+            "source.n_sersic": 2.133189586158444
+          },
+          "prior_penalty": 15.738156501669437,
+          "status": 0
+        }
+      },
+      "id": "102019586_NEG564463213499964061",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102019586_NEG564463213499964061_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7752,
+        "sigma_native_flux_per_pixel": 0.0022916171883693693,
+        "sky_native_flux_per_pixel": 0.0009925203630700707,
+        "usable_pixels": 14641
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.159304504174838,
+        "ref_ell_comp_0": 0.20626111594180507,
+        "ref_ell_comp_1": 0.05972566972610991,
+        "ref_shear_g1": 0.01289190330647527,
+        "ref_shear_g2": -0.040050546981997545
+      },
+      "shape": [
+        121,
+        121
+      ]
+    },
+    {
+      "file": "102019594_NEG620978815501656388_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 53949.077887167405,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 102,
+              "objective": 53949.077887167405,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 59466.16115476063,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 39,
+              "objective": 59466.16115476063,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E",
+            "lens.gamma",
+            "lens.e1",
+            "lens.e2",
+            "source.R_sersic"
+          ],
+          "chi2": 53949.077887167405,
+          "chi2_per_dof": 3.6583086652992067,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 12.149980916001368,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.07383880215543177,
+            "lens.center_y": 0.023564298719308083,
+            "lens.e1": -0.4499996677871501,
+            "lens.e2": 0.4499999078684054,
+            "lens.gamma": 1.6000000000000003,
+            "lens.gamma1": -0.09302109129953312,
+            "lens.gamma2": 0.1261734135760911,
+            "lens.theta_E": 0.4000000000049449,
+            "source.R_sersic": 0.7999981885376882,
+            "source.amp": 1.8332333597570294,
+            "source.center_x": 0.04881418084791469,
+            "source.center_y": 0.0017295370165465237,
+            "source.e1": 0.3025059678938531,
+            "source.e2": -0.24688221720162495,
+            "source.n_sersic": 1.269231228113175
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 53948.24314410472,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 91,
+              "objective": 53964.24314410472,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 59466.161055590725,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 41,
+              "objective": 59482.161055590725,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E",
+            "lens.gamma",
+            "lens.e1",
+            "lens.e2",
+            "source.R_sersic"
+          ],
+          "chi2": 53948.24314410472,
+          "chi2_per_dof": 3.658252061036463,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 10.862776957976166,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.07388118364608731,
+            "lens.center_y": 0.023587442351187888,
+            "lens.e1": -0.44999999899202825,
+            "lens.e2": 0.4499999897100786,
+            "lens.gamma": 1.6000000000000003,
+            "lens.gamma1": -0.09410985473705943,
+            "lens.gamma2": 0.12760798220969372,
+            "lens.theta_E": 0.4000000000014781,
+            "source.R_sersic": 0.7999999939311621,
+            "source.amp": 1.8371725140487227,
+            "source.center_x": 0.04971033318271634,
+            "source.center_y": 0.0013396284681136679,
+            "source.e1": 0.3028543210086381,
+            "source.e2": -0.24876386172526155,
+            "source.n_sersic": 1.266613655004963
+          },
+          "prior_penalty": 16.0,
+          "status": 2
+        }
+      },
+      "id": "102019594_NEG620978815501656388",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102019594_NEG620978815501656388_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.002405038006276576,
+        "sky_native_flux_per_pixel": 0.00026141728449147195,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.8706638707480139,
+        "ref_ell_comp_0": 0.3416456438726094,
+        "ref_ell_comp_1": 0.2783329405226094,
+        "ref_shear_g1": 0.12709085987207885,
+        "ref_shear_g2": 0.2920462079528758
+      },
+      "shape": [
+        121,
+        122
+      ]
+    },
+    {
+      "file": "102020055_NEG563894315496088157_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 22722.55221871361,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 51,
+              "objective": 22722.55221871361,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 22959.54328626967,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 50,
+              "objective": 22959.54328626967,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 22722.55221871361,
+          "chi2_per_dof": 1.5408254030456099,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 7.945820624998305,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.010404908933358095,
+            "lens.center_y": 0.07669242731938025,
+            "lens.e1": 0.01714554593736388,
+            "lens.e2": -0.3515858947580544,
+            "lens.gamma": 1.6175024703897787,
+            "lens.gamma1": 0.08491836186856948,
+            "lens.gamma2": -0.05245737284801244,
+            "lens.theta_E": 0.44793146816504004,
+            "source.R_sersic": 0.47187646281426743,
+            "source.amp": 0.4251173280808028,
+            "source.center_x": 0.1339778943693713,
+            "source.center_y": 0.18215656925778678,
+            "source.e1": -0.1707218808049916,
+            "source.e2": -0.08913473584244078,
+            "source.n_sersic": 1.9226349172348816
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 22743.54901120302,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 42,
+              "objective": 22759.327934255893,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 22938.582927904914,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 45,
+              "objective": 22953.818450625455,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 22743.54901120302,
+          "chi2_per_dof": 1.5422492039874565,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 5.526538500038441,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.023469836772848755,
+            "lens.center_y": 0.06595342041167622,
+            "lens.e1": -0.04900943163337364,
+            "lens.e2": -0.33557121125560685,
+            "lens.gamma": 1.602773074265155,
+            "lens.gamma1": 0.08703777907762222,
+            "lens.gamma2": -0.029214896187000385,
+            "lens.theta_E": 0.4158135299767464,
+            "source.R_sersic": 0.5807504622933909,
+            "source.amp": 0.4275567760182287,
+            "source.center_x": 0.13855417461412772,
+            "source.center_y": 0.1541763418959113,
+            "source.e1": -0.26450853384614986,
+            "source.e2": -0.17935445029702832,
+            "source.n_sersic": 1.836517794547989
+          },
+          "prior_penalty": 15.778923052872415,
+          "status": 2
+        }
+      },
+      "id": "102020055_NEG563894315496088157",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102020055_NEG563894315496088157_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.0026006514909919258,
+        "sky_native_flux_per_pixel": 0.0002992802474182099,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.8119107703371328,
+        "ref_ell_comp_0": 0.170332563467052,
+        "ref_ell_comp_1": -0.2214362596283257,
+        "ref_shear_g1": -0.2834723538547931,
+        "ref_shear_g2": -0.09365257249650698
+      },
+      "shape": [
+        122,
+        121
+      ]
+    },
+    {
+      "file": "102020528_NEG554976975487853956_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 586367.0593871953,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 56,
+              "objective": 586367.0593871953,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 547079.9976587461,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 80,
+              "objective": 547079.9976587461,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 547079.9976587461,
+          "chi2_per_dof": 37.097714630687335,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 9.219209790986497,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": 0.048917341556330256,
+            "lens.center_y": -0.06555707847338009,
+            "lens.e1": 0.4328497783643139,
+            "lens.e2": 0.43555777022446024,
+            "lens.gamma": 1.6158035490464882,
+            "lens.gamma1": 0.13151133919328362,
+            "lens.gamma2": 0.14152340219019333,
+            "lens.theta_E": 0.40103699394749787,
+            "source.R_sersic": 0.7933900339265041,
+            "source.amp": 2.9280089155732143,
+            "source.center_x": 0.10199532221319516,
+            "source.center_y": -0.20316336571439428,
+            "source.e1": -0.1960794466971539,
+            "source.e2": -0.0965402382627149,
+            "source.n_sersic": 2.670587444842286
+          },
+          "prior_penalty": 0.0,
+          "status": 4
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 679145.2086227466,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 39,
+              "objective": 679159.5500249722,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 725393.5480614883,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 46,
+              "objective": 725406.5213497283,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 679145.2086227466,
+          "chi2_per_dof": 46.05310969164892,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 4.869200374989305,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.0765775320949614,
+            "lens.center_y": -0.05206523007684286,
+            "lens.e1": 0.36269988866711483,
+            "lens.e2": 0.43554274490860917,
+            "lens.gamma": 1.6212995613199754,
+            "lens.gamma1": 0.13384682810882467,
+            "lens.gamma2": 0.07039771801949882,
+            "lens.theta_E": 0.4296332929423339,
+            "source.R_sersic": 0.5169578535292974,
+            "source.amp": 5.603474426741853,
+            "source.center_x": 0.1468163939454856,
+            "source.center_y": -0.20534148346058026,
+            "source.e1": -0.1358795478500165,
+            "source.e2": -0.10919968552311662,
+            "source.n_sersic": 2.0002946723437667
+          },
+          "prior_penalty": 14.341402225545608,
+          "status": 3
+        }
+      },
+      "id": "102020528_NEG554976975487853956",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102020528_NEG554976975487853956_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.0026812668205640406,
+        "sky_native_flux_per_pixel": 0.0016281477874144912,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.95742481816661,
+        "ref_ell_comp_0": 0.0464924079933044,
+        "ref_ell_comp_1": -0.058996095646084185,
+        "ref_shear_g1": -0.03644953447209114,
+        "ref_shear_g2": -0.036410768032994416
+      },
+      "shape": [
+        122,
+        121
+      ]
+    },
+    {
+      "file": "102020532_NEG584961967491933103_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 52464.06915662449,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 46,
+              "objective": 52464.06915662449,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 50568.09186323127,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 57,
+              "objective": 50568.09186323127,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E"
+          ],
+          "chi2": 50568.09186323127,
+          "chi2_per_dof": 3.4009073820183784,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 8.727693374967203,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.16712410550773457,
+            "lens.center_y": -0.1448202438086943,
+            "lens.e1": -0.3614258312991982,
+            "lens.e2": -0.4211770284950306,
+            "lens.gamma": 1.606345482919238,
+            "lens.gamma1": -0.14692923796529886,
+            "lens.gamma2": -0.08993953031353633,
+            "lens.theta_E": 0.400031596347595,
+            "source.R_sersic": 0.4423198476695176,
+            "source.amp": 0.9765985728672234,
+            "source.center_x": 0.20818368726732617,
+            "source.center_y": -0.019952827659954122,
+            "source.e1": -0.05519707916111525,
+            "source.e2": 0.042435034097331514,
+            "source.n_sersic": 1.7326809969193113
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 52460.35419323383,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 53,
+              "objective": 52476.065692637596,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 52215.96834872996,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 51,
+              "objective": 52231.968346223075,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma"
+          ],
+          "chi2": 52215.96834872996,
+          "chi2_per_dof": 3.5117336975405182,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 7.038658291974571,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.1325190149578271,
+            "lens.center_y": -0.0991544887166499,
+            "lens.e1": -0.07038867348492346,
+            "lens.e2": -0.4407968939858772,
+            "lens.gamma": 1.6000000313361578,
+            "lens.gamma1": -0.0626824919857581,
+            "lens.gamma2": -0.06602043017525495,
+            "lens.theta_E": 0.400131721374279,
+            "source.R_sersic": 0.4248462019171099,
+            "source.amp": 1.1150585221169198,
+            "source.center_x": 0.14238334255953372,
+            "source.center_y": -0.05255231616188633,
+            "source.e1": 0.08286122379753748,
+            "source.e2": 0.09324466406178303,
+            "source.n_sersic": 1.4905663216145533
+          },
+          "prior_penalty": 15.99999749311246,
+          "status": 2
+        }
+      },
+      "id": "102020532_NEG584961967491933103",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102020532_NEG584961967491933103_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7828,
+        "sigma_native_flux_per_pixel": 0.0023244924600774363,
+        "sky_native_flux_per_pixel": 0.00020401411165948957,
+        "usable_pixels": 14884
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.5933813819400582,
+        "ref_ell_comp_0": -0.3447699777924438,
+        "ref_ell_comp_1": -0.1380148615022646,
+        "ref_shear_g1": 0.008314584328530205,
+        "ref_shear_g2": 0.14272451256465982
+      },
+      "shape": [
+        122,
+        122
+      ]
+    },
+    {
+      "file": "102021497_NEG615658160478755691_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 36332.25444866339,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 67,
+              "objective": 36332.25444866339,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 36333.08551204074,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 48,
+              "objective": 36333.08551204074,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 36332.25444866339,
+          "chi2_per_dof": 2.4637047839332333,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 6.945388499996625,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.008525645016940355,
+            "lens.center_y": 0.03980958859695169,
+            "lens.e1": 0.18066600085041343,
+            "lens.e2": -0.44017206479386395,
+            "lens.gamma": 1.6007680436555762,
+            "lens.gamma1": 0.1371453481604117,
+            "lens.gamma2": -0.14704803430318422,
+            "lens.theta_E": 0.4071428713632188,
+            "source.R_sersic": 0.4492912872169971,
+            "source.amp": 1.741150816748719,
+            "source.center_x": 0.07987200815238212,
+            "source.center_y": 0.13975976612093985,
+            "source.e1": -0.1322224714577583,
+            "source.e2": 0.19407005092551782,
+            "source.n_sersic": 1.5862825366332847
+          },
+          "prior_penalty": 0.0,
+          "status": 3
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 36327.1744426496,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 48,
+              "objective": 36343.11597038905,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 36823.072155308066,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 52,
+              "objective": 36838.816043207364,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 36327.1744426496,
+          "chi2_per_dof": 2.463360306682688,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 5.851401166990399,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.008361137147819818,
+            "lens.center_y": 0.03983335869224756,
+            "lens.e1": 0.18057365006341103,
+            "lens.e2": -0.4402746831371042,
+            "lens.gamma": 1.6007315722542115,
+            "lens.gamma1": 0.13713630623947448,
+            "lens.gamma2": -0.14727722043312286,
+            "lens.theta_E": 0.4071894602925526,
+            "source.R_sersic": 0.4493806566060349,
+            "source.amp": 1.741129699089461,
+            "source.center_x": 0.08030700343815064,
+            "source.center_y": 0.13979562907951854,
+            "source.e1": -0.13214572553830203,
+            "source.e2": 0.19445174974344495,
+            "source.n_sersic": 1.5870686405003376
+          },
+          "prior_penalty": 15.941527739450976,
+          "status": 2
+        }
+      },
+      "id": "102021497_NEG615658160478755691",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102021497_NEG615658160478755691_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.002845863769642943,
+        "sky_native_flux_per_pixel": 0.0004035658057546243,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.4626789284232642,
+        "ref_ell_comp_0": -0.055378808702236625,
+        "ref_ell_comp_1": -0.2472597758159328,
+        "ref_shear_g1": -0.058346391348024725,
+        "ref_shear_g2": -0.009863681414542587
+      },
+      "shape": [
+        122,
+        121
+      ]
+    },
+    {
+      "file": "102021984_NEG609678648473892045_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 271713.53247407114,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 71,
+              "objective": 271713.53247407114,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 284229.5115135848,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 99,
+              "objective": 284229.5115135848,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E"
+          ],
+          "chi2": 271713.53247407114,
+          "chi2_per_dof": 18.425003897339874,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 13.851935165992472,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.0812873730340222,
+            "lens.center_y": 0.14225922418844122,
+            "lens.e1": 0.4242718497055017,
+            "lens.e2": -0.41333395892673624,
+            "lens.gamma": 1.6182302708611147,
+            "lens.gamma1": 0.1411935678374992,
+            "lens.gamma2": -0.137369584971913,
+            "lens.theta_E": 0.40002688434670336,
+            "source.R_sersic": 0.3749128967793725,
+            "source.amp": 2.811600829577356,
+            "source.center_x": 0.13603592288573227,
+            "source.center_y": 0.29222940774993245,
+            "source.e1": -0.194501436462296,
+            "source.e2": 0.3482139671477199,
+            "source.n_sersic": 1.9933995467320986
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 265237.50543606846,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 59,
+              "objective": 265253.06435979897,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 262702.44356131635,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 76,
+              "objective": 262718.4244446693,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 262702.44356131635,
+          "chi2_per_dof": 17.813958334665788,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 10.245925375027582,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": -0.03643824532569223,
+            "lens.center_y": 0.15039058241983816,
+            "lens.e1": 0.4421907975635567,
+            "lens.e2": 0.42622318986660107,
+            "lens.gamma": 1.6002390295074436,
+            "lens.gamma1": 0.1493824690956409,
+            "lens.gamma2": 0.14902899089367053,
+            "lens.theta_E": 0.4001340336298385,
+            "source.R_sersic": 0.4398052650590453,
+            "source.amp": 1.5973852117576262,
+            "source.center_x": -0.10503770862138637,
+            "source.center_y": 0.30267463782856124,
+            "source.e1": -0.2160279815846081,
+            "source.e2": -0.20983535569563566,
+            "source.n_sersic": 2.6195538537890806
+          },
+          "prior_penalty": 15.980883352924138,
+          "status": 4
+        }
+      },
+      "id": "102021984_NEG609678648473892045",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102021984_NEG609678648473892045_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.002987176513061501,
+        "sky_native_flux_per_pixel": 0.0005479637475218624,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.6711570436036585,
+        "ref_ell_comp_0": 0.10960373247627281,
+        "ref_ell_comp_1": -0.3043103903403107,
+        "ref_shear_g1": -0.08007857550704878,
+        "ref_shear_g2": -0.015776848167274943
+      },
+      "shape": [
+        121,
+        122
+      ]
+    },
+    {
+      "file": "102023476_NEG610025395461180513_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 250617.5346900479,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 40,
+              "objective": 250617.5346900479,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 249877.14353559172,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 36,
+              "objective": 249877.14353559172,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma",
+            "lens.center_x",
+            "lens.center_y",
+            "lens.gamma1",
+            "source.R_sersic",
+            "source.e2",
+            "source.center_x"
+          ],
+          "chi2": 249877.14353559172,
+          "chi2_per_dof": 16.9442695826671,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 5.997818084026221,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.19999999999999998,
+            "lens.center_y": 0.19999999999999998,
+            "lens.e1": 0.10212567854574263,
+            "lens.e2": 0.23005332570180873,
+            "lens.gamma": 1.6000000000000003,
+            "lens.gamma1": 0.14999999999995456,
+            "lens.gamma2": -0.11110099688515176,
+            "lens.theta_E": 0.5387305550539426,
+            "source.R_sersic": 0.7999999999995887,
+            "source.amp": 1.5216608338450512,
+            "source.center_x": -0.3999999923728447,
+            "source.center_y": 0.17677045421118634,
+            "source.e1": -0.3560099468114876,
+            "source.e2": 0.44999999999999996,
+            "source.n_sersic": 1.6578419473980897
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 250367.3108933913,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 45,
+              "objective": 250383.03537024627,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 249877.14322824794,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 37,
+              "objective": 249893.1432282479,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma",
+            "lens.center_x",
+            "lens.center_y",
+            "lens.gamma1",
+            "source.R_sersic",
+            "source.e2",
+            "source.center_x"
+          ],
+          "chi2": 249877.14322824794,
+          "chi2_per_dof": 16.944269561825994,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 6.44243108399678,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.19999999999999998,
+            "lens.center_y": 0.19999999999999998,
+            "lens.e1": 0.10217678075140632,
+            "lens.e2": 0.22996586897035354,
+            "lens.gamma": 1.6000000000000132,
+            "lens.gamma1": 0.149999999982099,
+            "lens.gamma2": -0.11111135471974119,
+            "lens.theta_E": 0.5387595971277763,
+            "source.R_sersic": 0.8,
+            "source.amp": 1.5215798886528549,
+            "source.center_x": -0.3999999872550154,
+            "source.center_y": 0.17677825546135395,
+            "source.e1": -0.3559710768470477,
+            "source.e2": 0.44999999999999357,
+            "source.n_sersic": 1.657838681830302
+          },
+          "prior_penalty": 15.999999999970896,
+          "status": 2
+        }
+      },
+      "id": "102023476_NEG610025395461180513",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102023476_NEG610025395461180513_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.0034510850714595475,
+        "sky_native_flux_per_pixel": 0.0010936072212643921,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.4269385945978452,
+        "ref_ell_comp_0": -0.06394764439980549,
+        "ref_ell_comp_1": -0.008138282034828064,
+        "ref_shear_g1": -0.0775453219060883,
+        "ref_shear_g2": -0.2016416451044298
+      },
+      "shape": [
+        121,
+        122
+      ]
+    },
+    {
+      "file": "102023481_NEG647245161459048846_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 42217.0959173761,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 52,
+              "objective": 42217.0959173761,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 38643.24277939765,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 63,
+              "objective": 38643.24277939765,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E"
+          ],
+          "chi2": 38643.24277939765,
+          "chi2_per_dof": 2.6420923546696056,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 6.531301167036872,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": 0.1419438649153847,
+            "lens.center_y": -0.029838374665290563,
+            "lens.e1": -0.4373630453010113,
+            "lens.e2": 0.4155553377830576,
+            "lens.gamma": 1.6008749518513636,
+            "lens.gamma1": -0.08500936667789222,
+            "lens.gamma2": 0.14912857380648178,
+            "lens.theta_E": 0.40003849102443073,
+            "source.R_sersic": 0.6777945282890393,
+            "source.amp": 1.1626846514239908,
+            "source.center_x": 0.271275766439591,
+            "source.center_y": -0.08874446031268547,
+            "source.e1": 0.33580697484012184,
+            "source.e2": -0.4121063158064483,
+            "source.n_sersic": 2.2287936814747624
+          },
+          "prior_penalty": 0.0,
+          "status": 4
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 42593.10033160374,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 59,
+              "objective": 42608.62182489406,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 46262.4351152152,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 47,
+              "objective": 46278.4307349048,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 42593.10033160374,
+          "chi2_per_dof": 2.9121496192809886,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 6.013225750008132,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": 0.13822130855752546,
+            "lens.center_y": 0.08069006081822784,
+            "lens.e1": -0.25776267788296003,
+            "lens.e2": -0.3940736808998795,
+            "lens.gamma": 1.6060267358014964,
+            "lens.gamma1": 0.044966302440262104,
+            "lens.gamma2": -0.05965269388472907,
+            "lens.theta_E": 0.40339467772314735,
+            "source.R_sersic": 0.3771576104663653,
+            "source.amp": 1.7379155964327877,
+            "source.center_x": 0.26859133422029313,
+            "source.center_y": 0.15501958055206339,
+            "source.e1": 0.22921795150014757,
+            "source.e2": 0.23542848381780393,
+            "source.n_sersic": 1.9162938143220223
+          },
+          "prior_penalty": 15.521493290318176,
+          "status": 4
+        }
+      },
+      "id": "102023481_NEG647245161459048846",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102023481_NEG647245161459048846_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7752,
+        "sigma_native_flux_per_pixel": 0.0034147753661211695,
+        "sky_native_flux_per_pixel": 0.0002731809508986771,
+        "usable_pixels": 14641
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.5002208279615433,
+        "ref_ell_comp_0": 0.07819615337319051,
+        "ref_ell_comp_1": 0.05309398208080265,
+        "ref_shear_g1": -0.11470839288055744,
+        "ref_shear_g2": -0.03776413669694926
+      },
+      "shape": [
+        121,
+        121
+      ]
+    },
+    {
+      "file": "102042914_NEG522625262291125533_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 344934.6503443382,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 62,
+              "objective": 344934.6503443382,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 330376.81782909925,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 70,
+              "objective": 330376.81782909925,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma"
+          ],
+          "chi2": 330376.81782909925,
+          "chi2_per_dof": 22.40298486669148,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 8.863416582986247,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.025026024825936667,
+            "lens.center_y": -0.02471204000850856,
+            "lens.e1": -0.4308213829978902,
+            "lens.e2": 0.4469203518958784,
+            "lens.gamma": 1.6000004085211215,
+            "lens.gamma1": -0.10481122904807283,
+            "lens.gamma2": 0.0963436651633347,
+            "lens.theta_E": 0.4002320736244529,
+            "source.R_sersic": 0.4671823795760875,
+            "source.amp": 5.401250653038889,
+            "source.center_x": -0.0366315926513528,
+            "source.center_y": -0.004858186433126275,
+            "source.e1": 0.35440440800040696,
+            "source.e2": -0.4099443072131507,
+            "source.n_sersic": 1.1124769967452885
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 344177.06846990297,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 63,
+              "objective": 344192.6999810452,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 326138.00309399446,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 81,
+              "objective": 326154.0030939594,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E",
+            "lens.gamma",
+            "lens.e2"
+          ],
+          "chi2": 326138.00309399446,
+          "chi2_per_dof": 22.115549135010134,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 9.007674416003283,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": -0.024669896041860286,
+            "lens.center_y": -0.024853903576861625,
+            "lens.e1": -0.44986889764260907,
+            "lens.e2": 0.4499999381925224,
+            "lens.gamma": 1.6000000004382608,
+            "lens.gamma1": -0.14352616675896543,
+            "lens.gamma2": 0.12333669781918945,
+            "lens.theta_E": 0.40000217090014295,
+            "source.R_sersic": 0.5582215655631569,
+            "source.amp": 4.662990217189911,
+            "source.center_x": -0.000896385582018328,
+            "source.center_y": -0.020198177438474713,
+            "source.e1": 0.4146414755496671,
+            "source.e2": -0.4468361868560474,
+            "source.n_sersic": 1.2529285241102113
+          },
+          "prior_penalty": 15.999999964958988,
+          "status": 4
+        }
+      },
+      "id": "102042914_NEG522625262291125533",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102042914_NEG522625262291125533_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.0029296052627186837,
+        "sky_native_flux_per_pixel": 0.0004640360566554591,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.7005992424232156,
+        "ref_ell_comp_0": -0.1165110955922312,
+        "ref_ell_comp_1": 0.060615987907412607,
+        "ref_shear_g1": -0.03307934207826746,
+        "ref_shear_g2": -0.08365678378454022
+      },
+      "shape": [
+        122,
+        121
+      ]
+    },
+    {
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 440546.02072621835,
+              "converged": false,
+              "message": "The maximum number of function evaluations is exceeded.",
+              "nfev": 200,
+              "objective": 440546.02072621835,
+              "start": 0,
+              "status": 0
+            },
+            {
+              "chi2_data": 922134.8734053515,
+              "converged": false,
+              "message": "The maximum number of function evaluations is exceeded.",
+              "nfev": 200,
+              "objective": 922134.8734053515,
+              "start": 1,
+              "status": 0
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma"
+          ],
+          "chi2": 440546.02072621835,
+          "chi2_per_dof": 29.873602815909564,
+          "converged": false,
+          "dof": 14747,
+          "elapsed_seconds": 30.390270167030394,
+          "message": "The maximum number of function evaluations is exceeded.",
+          "parameters": {
+            "lens.center_x": 0.13678076418732943,
+            "lens.center_y": 0.07970601432565046,
+            "lens.e1": -0.4284479097641125,
+            "lens.e2": -0.44257874389776547,
+            "lens.gamma": 1.6000366168649842,
+            "lens.gamma1": -0.09635476583052797,
+            "lens.gamma2": -0.07962492726373382,
+            "lens.theta_E": 0.4011670084200659,
+            "source.R_sersic": 0.7923703532066412,
+            "source.amp": 5.976663069298716,
+            "source.center_x": 0.27723121626687197,
+            "source.center_y": 0.13325273774647894,
+            "source.e1": 0.44279454674605606,
+            "source.e2": 0.44878038934853354,
+            "source.n_sersic": 2.879322070244239
+          },
+          "prior_penalty": 0.0,
+          "status": 0
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 460653.1872023218,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 158,
+              "objective": 460669.0860897056,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 572616.2947191972,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 93,
+              "objective": 572632.271669746,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E"
+          ],
+          "chi2": 460653.1872023218,
+          "chi2_per_dof": 31.23707786006115,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 17.26794550003251,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.15413959528657095,
+            "lens.center_y": 0.0487666300630314,
+            "lens.e1": -0.4094527749713741,
+            "lens.e2": -0.4460174173937006,
+            "lens.gamma": 1.6012659108653882,
+            "lens.gamma1": -0.05146580326175801,
+            "lens.gamma2": -0.08774119553793126,
+            "lens.theta_E": 0.40004035147670547,
+            "source.R_sersic": 0.7963652589085554,
+            "source.amp": 6.003690796734544,
+            "source.center_x": 0.28874034864534137,
+            "source.center_y": 0.11646002934339333,
+            "source.e1": 0.44023108919678944,
+            "source.e2": 0.43804749760210976,
+            "source.n_sersic": 2.8077563992079546
+          },
+          "prior_penalty": 15.898887383809779,
+          "status": 3
+        }
+      },
+      "id": "102044188_NEG548070624278595332",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102044188_NEG548070624278595332_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.003017574491209961,
+        "sky_native_flux_per_pixel": 0.0007762903405819088,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.922111793314081,
+        "ref_ell_comp_0": 0.20118871584542072,
+        "ref_ell_comp_1": 0.26865765763167787,
+        "ref_shear_g1": 0.005494626067901893,
+        "ref_shear_g2": 0.04527436307309364
+      },
+      "shape": [
+        122,
+        121
+      ]
+    },
+    {
+      "file": "102045468_NEG534525411271636586_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 24280.885979550396,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 94,
+              "objective": 24280.885979550396,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 22821.756047588908,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 48,
+              "objective": 22821.756047588908,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma",
+            "lens.center_x",
+            "lens.gamma1",
+            "source.e1",
+            "source.e2"
+          ],
+          "chi2": 22821.756047588908,
+          "chi2_per_dof": 1.5603552610138731,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 10.48175470897695,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.19999999999999998,
+            "lens.center_y": 0.17031394649305912,
+            "lens.e1": -0.2595100713520718,
+            "lens.e2": 0.249845813531263,
+            "lens.gamma": 1.6000000000000003,
+            "lens.gamma1": -0.14999999999999997,
+            "lens.gamma2": 0.07518990636439307,
+            "lens.theta_E": 0.7311435005077314,
+            "source.R_sersic": 0.6384877357551231,
+            "source.amp": 1.1715892463785262,
+            "source.center_x": 0.10143920946220912,
+            "source.center_y": 0.002809200682925413,
+            "source.e1": 0.44999999999999996,
+            "source.e2": -0.44999999999999996,
+            "source.n_sersic": 0.9928558403286762
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 24280.887128629976,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 84,
+              "objective": 24296.887128629976,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 22821.756053484547,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 49,
+              "objective": 22837.756053484547,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma",
+            "lens.center_x",
+            "lens.gamma1",
+            "source.e1",
+            "source.e2"
+          ],
+          "chi2": 22821.756053484547,
+          "chi2_per_dof": 1.5603552614169662,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 9.90231854195008,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.19999999999999998,
+            "lens.center_y": 0.17031349079786826,
+            "lens.e1": -0.2595099347848901,
+            "lens.e2": 0.24984472571899416,
+            "lens.gamma": 1.6000000000000003,
+            "lens.gamma1": -0.14999999999999997,
+            "lens.gamma2": 0.07518966111462068,
+            "lens.theta_E": 0.7311444642661769,
+            "source.R_sersic": 0.6384871835688133,
+            "source.amp": 1.1715870803992319,
+            "source.center_x": 0.10143890567557333,
+            "source.center_y": 0.002808933908510015,
+            "source.e1": 0.44999999999999996,
+            "source.e2": -0.44999999999999996,
+            "source.n_sersic": 0.9928580366555193
+          },
+          "prior_penalty": 16.0,
+          "status": 2
+        }
+      },
+      "id": "102045468_NEG534525411271636586",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102045468_NEG534525411271636586_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7752,
+        "sigma_native_flux_per_pixel": 0.0025475590840189073,
+        "sky_native_flux_per_pixel": 0.00017797003965824842,
+        "usable_pixels": 14641
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.7954078815667688,
+        "ref_ell_comp_0": -0.260044956042677,
+        "ref_ell_comp_1": 0.20922710609736678,
+        "ref_shear_g1": 0.03455183806323887,
+        "ref_shear_g2": -0.04616179556333829
+      },
+      "shape": [
+        121,
+        121
+      ]
+    },
+    {
+      "file": "102046759_NEG522096295262136465_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 46941.14603336327,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 72,
+              "objective": 46941.14603336327,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 48048.3545193343,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 50,
+              "objective": 48048.3545193343,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 46941.14603336327,
+          "chi2_per_dof": 3.183097988293434,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 7.350790916010737,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.18749377186087088,
+            "lens.center_y": 0.05638740650414531,
+            "lens.e1": -0.22983192310679493,
+            "lens.e2": -0.2915009136258839,
+            "lens.gamma": 1.6009842484913839,
+            "lens.gamma1": 0.11323874430293386,
+            "lens.gamma2": -0.0943314050547206,
+            "lens.theta_E": 0.4648441510898008,
+            "source.R_sersic": 0.4820353462880725,
+            "source.amp": 1.1528569326599025,
+            "source.center_x": 0.35602927847187377,
+            "source.center_y": 0.13326960913902974,
+            "source.e1": -0.20154010349522822,
+            "source.e2": 0.004250988421487211,
+            "source.n_sersic": 2.3340803320110926
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 47304.9598350141,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 66,
+              "objective": 47319.27830960949,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 43012.65171911307,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 61,
+              "objective": 43025.07693598088,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 43012.65171911307,
+          "chi2_per_dof": 2.9167052091349475,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 8.128083500021603,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": 0.19267585046397293,
+            "lens.center_y": 0.0011745422856171872,
+            "lens.e1": -0.3380611178284548,
+            "lens.e2": 0.42732554331114164,
+            "lens.gamma": 1.6475057891565668,
+            "lens.gamma1": 0.11742193640040074,
+            "lens.gamma2": 0.12700718296108995,
+            "lens.theta_E": 0.46262236381329247,
+            "source.R_sersic": 0.6188916717248522,
+            "source.amp": 0.695367894861793,
+            "source.center_x": 0.374316632540874,
+            "source.center_y": -0.0974519728606876,
+            "source.e1": -0.038291512817769845,
+            "source.e2": -0.1704427498119684,
+            "source.n_sersic": 3.10656127979672
+          },
+          "prior_penalty": 12.42521686780674,
+          "status": 4
+        }
+      },
+      "id": "102046759_NEG522096295262136465",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102046759_NEG522096295262136465_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.006567432733007012,
+        "sky_native_flux_per_pixel": 0.0006747641309630126,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.2742660515523627,
+        "ref_ell_comp_0": 0.10352079779827801,
+        "ref_ell_comp_1": 0.07491806168991445,
+        "ref_shear_g1": -0.0609844134563505,
+        "ref_shear_g2": 0.03889429821314258
+      },
+      "shape": [
+        121,
+        122
+      ]
+    },
+    {
+      "file": "102158275_2709777393645726835_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 508535733.405066,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 37,
+              "objective": 508535733.405066,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 508440208.5076854,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 45,
+              "objective": 508440208.5076854,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 508440208.5076854,
+          "chi2_per_dof": 34194.6471523092,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 6.072253541962709,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.14256524471764542,
+            "lens.center_y": -0.06889745479070998,
+            "lens.e1": -0.43496908545270796,
+            "lens.e2": -0.2815702576901414,
+            "lens.gamma": 1.6024863526727486,
+            "lens.gamma1": -0.046388485666934244,
+            "lens.gamma2": -0.10229917563434901,
+            "lens.theta_E": 0.40206297954533826,
+            "source.R_sersic": 0.5984931453165538,
+            "source.amp": 2.5164247974003158,
+            "source.center_x": -0.2766405249608592,
+            "source.center_y": -0.12093129019120774,
+            "source.e1": 0.24031751959650713,
+            "source.e2": -0.1070473109782888,
+            "source.n_sersic": 2.6473056076275427
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 508535336.0675789,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 41,
+              "objective": 508535349.0499921,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 508427867.9613378,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 46,
+              "objective": 508427881.8337889,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 508427867.9613378,
+          "chi2_per_dof": 34193.817200977726,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 6.319275374989957,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.13518642828368924,
+            "lens.center_y": -0.08910415320455956,
+            "lens.e1": -0.44561839005354814,
+            "lens.e2": -0.2718769516271569,
+            "lens.gamma": 1.627542605806253,
+            "lens.gamma1": -0.057024178928477665,
+            "lens.gamma2": -0.10348897251291907,
+            "lens.theta_E": 0.4073643849794831,
+            "source.R_sersic": 0.6694893693079346,
+            "source.amp": 2.264073895800707,
+            "source.center_x": -0.28347637741217513,
+            "source.center_y": -0.13415624192822503,
+            "source.e1": 0.25862665618154296,
+            "source.e2": -0.055753729750053146,
+            "source.n_sersic": 2.7073408353253896
+          },
+          "prior_penalty": 13.872451066970825,
+          "status": 2
+        }
+      },
+      "id": "102158275_2709777393645726835",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102158275_2709777393645726835_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7828,
+        "sigma_native_flux_per_pixel": 0.0024352713478755918,
+        "sky_native_flux_per_pixel": 0.0009731274622026831,
+        "usable_pixels": 14884
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.0583107640203446,
+        "ref_ell_comp_0": -0.0326907653489861,
+        "ref_ell_comp_1": -0.0570950179881363,
+        "ref_shear_g1": -0.11542804755989015,
+        "ref_shear_g2": 0.015417411165887778
+      },
+      "shape": [
+        122,
+        122
+      ]
+    },
+    {
+      "file": "102158893_2720583810655664894_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 1641211.2981706439,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 56,
+              "objective": 1641211.2981706439,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 1509972.8866494258,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 62,
+              "objective": 1509972.8866494258,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma"
+          ],
+          "chi2": 1509972.8866494258,
+          "chi2_per_dof": 103.23895027002774,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 6.89474495803006,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.030112681789038618,
+            "lens.center_y": 0.08314055750584143,
+            "lens.e1": 0.40003349695805834,
+            "lens.e2": -0.42018819033775745,
+            "lens.gamma": 1.6000041970146426,
+            "lens.gamma1": 0.12487106514795956,
+            "lens.gamma2": -0.14360424962303486,
+            "lens.theta_E": 0.403751202368958,
+            "source.R_sersic": 0.41585929403754673,
+            "source.amp": 6.6185223900593595,
+            "source.center_x": 0.09168467573886631,
+            "source.center_y": 0.2285340419253872,
+            "source.e1": -0.25197228851589604,
+            "source.e2": 0.31119995400000006,
+            "source.n_sersic": 2.1746628372539534
+          },
+          "prior_penalty": 0.0,
+          "status": 3
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 1322693.0238249819,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 66,
+              "objective": 1322709.0197839444,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 1500239.0987430129,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 65,
+              "objective": 1500255.0523500761,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma"
+          ],
+          "chi2": 1322693.0238249819,
+          "chi2_per_dof": 90.43436509127457,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 7.792624042020179,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.08752565052371324,
+            "lens.center_y": 0.06480500752820371,
+            "lens.e1": 0.4324745197656911,
+            "lens.e2": -0.433911316722791,
+            "lens.gamma": 1.6000505161606606,
+            "lens.gamma1": 0.14263086724434001,
+            "lens.gamma2": -0.10722922319065169,
+            "lens.theta_E": 0.4019021043272803,
+            "source.R_sersic": 0.3148316157320742,
+            "source.amp": 7.489581067942384,
+            "source.center_x": 0.13726160659576167,
+            "source.center_y": 0.22179277963441024,
+            "source.e1": -0.1944959041168202,
+            "source.e2": 0.29631462364803796,
+            "source.n_sersic": 2.4542869987090272
+          },
+          "prior_penalty": 15.995958962477744,
+          "status": 3
+        }
+      },
+      "id": "102158893_2720583810655664894",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102158893_2720583810655664894_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7752,
+        "sigma_native_flux_per_pixel": 0.0024997823815238506,
+        "sky_native_flux_per_pixel": 0.0009514855046290904,
+        "usable_pixels": 14641
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.5919775794287887,
+        "ref_ell_comp_0": 0.0047984820451062405,
+        "ref_ell_comp_1": -0.33687759462135025,
+        "ref_shear_g1": -0.05020210289716504,
+        "ref_shear_g2": 0.0721686510557281
+      },
+      "shape": [
+        121,
+        121
+      ]
+    },
+    {
+      "file": "102159189_2667596748662187959_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 80350.66106477058,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 96,
+              "objective": 80350.66106477058,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 65958.62590195642,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 59,
+              "objective": 65958.62590195642,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 65958.62590195642,
+          "chi2_per_dof": 4.509683160259566,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 9.848549833986908,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.08420627201121463,
+            "lens.center_y": -0.09239329365858816,
+            "lens.e1": 0.2744007067493484,
+            "lens.e2": -0.17216221402263818,
+            "lens.gamma": 1.6003250570793677,
+            "lens.gamma1": 0.1493113312150061,
+            "lens.gamma2": -0.08611074005388426,
+            "lens.theta_E": 0.4463793611673316,
+            "source.R_sersic": 0.7843668820994075,
+            "source.amp": 0.7024124950579673,
+            "source.center_x": -0.1278966391218599,
+            "source.center_y": -0.22781962314495174,
+            "source.e1": 0.012203257768826447,
+            "source.e2": -0.003561167508859342,
+            "source.n_sersic": 2.0928190751523568
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 80347.49030859687,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 78,
+              "objective": 80363.49026814253,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 66116.09383567204,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 59,
+              "objective": 66132.06692896367,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 66116.09383567204,
+          "chi2_per_dof": 4.520449462304939,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 8.737542874994688,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": -0.08423795694614383,
+            "lens.center_y": -0.0924279346019992,
+            "lens.e1": 0.27338032070617413,
+            "lens.e2": -0.2133281501766162,
+            "lens.gamma": 1.6003364753742577,
+            "lens.gamma1": 0.1478650853201217,
+            "lens.gamma2": -0.11310811476804328,
+            "lens.theta_E": 0.44887944573626537,
+            "source.R_sersic": 0.7648548845822081,
+            "source.amp": 0.7345526126796349,
+            "source.center_x": -0.13327011647154482,
+            "source.center_y": -0.23075778497655414,
+            "source.e1": 0.016427725163840036,
+            "source.e2": 0.00630774179065344,
+            "source.n_sersic": 2.056222795413343
+          },
+          "prior_penalty": 15.973093291628174,
+          "status": 4
+        }
+      },
+      "id": "102159189_2667596748662187959",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102159189_2667596748662187959_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7752,
+        "sigma_native_flux_per_pixel": 0.002624501245097932,
+        "sky_native_flux_per_pixel": 0.0007371357933152467,
+        "usable_pixels": 14641
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.9068921215399989,
+        "ref_ell_comp_0": -0.05829269181853321,
+        "ref_ell_comp_1": 0.23110366857707215,
+        "ref_shear_g1": 0.009969090337748595,
+        "ref_shear_g2": 0.06760393042165062
+      },
+      "shape": [
+        121,
+        121
+      ]
+    },
+    {
+      "file": "102159192_2695197869661844158_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 36333.76332184019,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 90,
+              "objective": 36333.76332184019,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 36005.73390280387,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 63,
+              "objective": 36005.73390280387,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 36005.73390280387,
+          "chi2_per_dof": 2.4215302913984713,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 11.027071624994278,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": -0.1326182400939769,
+            "lens.center_y": -0.13557047951675497,
+            "lens.e1": 0.34305753173590664,
+            "lens.e2": -0.22918777901525939,
+            "lens.gamma": 1.6133113736413944,
+            "lens.gamma1": 0.14980450451611935,
+            "lens.gamma2": 0.06742844440875427,
+            "lens.theta_E": 0.40045760373345396,
+            "source.R_sersic": 0.46878666084192233,
+            "source.amp": 0.625024731897295,
+            "source.center_x": -0.16822975399515888,
+            "source.center_y": -0.2654793092603714,
+            "source.e1": -0.05170897845327698,
+            "source.e2": 0.13661119185711637,
+            "source.n_sersic": 2.5874525376664783
+          },
+          "prior_penalty": 0.0,
+          "status": 4
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 40592.555210421284,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 70,
+              "objective": 40608.28480206799,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 43952.893450608215,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 66,
+              "objective": 43967.97472956967,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 40592.555210421284,
+          "chi2_per_dof": 2.730012456145086,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 9.464234333019704,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.1454582707957771,
+            "lens.center_y": -0.05308150480720556,
+            "lens.e1": -0.42531979234950273,
+            "lens.e2": 0.35558058708965945,
+            "lens.gamma": 1.6033945077700236,
+            "lens.gamma1": -0.12300294131247175,
+            "lens.gamma2": 0.14958138542193997,
+            "lens.theta_E": 0.40024742509843053,
+            "source.R_sersic": 0.5553992040838726,
+            "source.amp": 0.8485606935240426,
+            "source.center_x": -0.2661182757835919,
+            "source.center_y": 0.015760194599219606,
+            "source.e1": 0.3255102396060012,
+            "source.e2": 0.06978783347918358,
+            "source.n_sersic": 2.0685623429775273
+          },
+          "prior_penalty": 15.729591646704648,
+          "status": 3
+        }
+      },
+      "id": "102159192_2695197869661844158",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102159192_2695197869661844158_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7828,
+        "sigma_native_flux_per_pixel": 0.002593275618238979,
+        "sky_native_flux_per_pixel": 8.591202640673146e-05,
+        "usable_pixels": 14884
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.0233791032525632,
+        "ref_ell_comp_0": 0.037165894274975395,
+        "ref_ell_comp_1": -0.056338784396511105,
+        "ref_shear_g1": 0.0009975699260782482,
+        "ref_shear_g2": 0.009004274018510713
+      },
+      "shape": [
+        122,
+        122
+      ]
+    },
+    {
+      "file": "102159192_2699004780662092340_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 2961123.052258144,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 53,
+              "objective": 2961123.052258144,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 2937925.486913153,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 61,
+              "objective": 2937925.486913153,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.e1"
+          ],
+          "chi2": 2937925.486913153,
+          "chi2_per_dof": 199.23541888736966,
+          "converged": true,
+          "dof": 14746,
+          "elapsed_seconds": 7.0231262919842266,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.053190842304114014,
+            "lens.center_y": -0.06711758845557494,
+            "lens.e1": -0.4499724185073976,
+            "lens.e2": -0.3887702810163269,
+            "lens.gamma": 1.638248298679056,
+            "lens.gamma1": -0.13305719321599205,
+            "lens.gamma2": -0.1475053265333128,
+            "lens.theta_E": 0.40855913067281124,
+            "source.R_sersic": 0.5545601919704201,
+            "source.amp": 3.489554014909782,
+            "source.center_x": 0.1964560557207003,
+            "source.center_y": -0.0008839722592513451,
+            "source.e1": 0.3157397616954834,
+            "source.e2": 0.06096043679218645,
+            "source.n_sersic": 2.1971547066055024
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 2962634.7091457285,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 47,
+              "objective": 2962647.2412704295,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 2958614.5792094255,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 50,
+              "objective": 2958627.2048610416,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 2958614.5792094255,
+          "chi2_per_dof": 200.63844969547168,
+          "converged": true,
+          "dof": 14746,
+          "elapsed_seconds": 5.534011457988527,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.06024839433029264,
+            "lens.center_y": -0.06864278414012112,
+            "lens.e1": -0.4479657200426454,
+            "lens.e2": -0.373003613521169,
+            "lens.gamma": 1.6446740705185348,
+            "lens.gamma1": -0.12740570737587756,
+            "lens.gamma2": -0.14291210609110164,
+            "lens.theta_E": 0.40213527258142073,
+            "source.R_sersic": 0.5753708991162857,
+            "source.amp": 3.562980088364442,
+            "source.center_x": 0.1974744133305513,
+            "source.center_y": -0.0030988442766495578,
+            "source.e1": 0.3259762829617461,
+            "source.e2": 0.06146364056896876,
+            "source.n_sersic": 2.1106554107613036
+          },
+          "prior_penalty": 12.625651616137475,
+          "status": 2
+        }
+      },
+      "id": "102159192_2699004780662092340",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102159192_2699004780662092340_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 1,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.0030548896639510767,
+        "sky_native_flux_per_pixel": 0.0008142541046254337,
+        "usable_pixels": 14761
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.9399417851105398,
+        "ref_ell_comp_0": 0.1592954541122086,
+        "ref_ell_comp_1": 0.05348512097650083,
+        "ref_shear_g1": 0.021240913240351662,
+        "ref_shear_g2": 0.12656533153714858
+      },
+      "shape": [
+        122,
+        121
+      ]
+    },
+    {
+      "file": "102159196_2750719383660442039_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 38554.24526815886,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 43,
+              "objective": 38554.24526815886,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 38563.167990625596,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 50,
+              "objective": 38563.167990625596,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "source.R_sersic"
+          ],
+          "chi2": 38554.24526815886,
+          "chi2_per_dof": 2.636007470816277,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 6.125478875008412,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.1991801053013533,
+            "lens.center_y": 0.05477854414993359,
+            "lens.e1": 0.44070473717366976,
+            "lens.e2": 0.1573677776153873,
+            "lens.gamma": 1.6042284855736932,
+            "lens.gamma1": 0.035899161223626554,
+            "lens.gamma2": 0.1107303120114407,
+            "lens.theta_E": 0.5026284609146224,
+            "source.R_sersic": 0.7997899735742781,
+            "source.amp": 0.25244139291593404,
+            "source.center_x": -0.10059627605725822,
+            "source.center_y": 0.19481901472238683,
+            "source.e1": 0.25068639355047495,
+            "source.e2": -0.025317555222596058,
+            "source.n_sersic": 2.5381390321214554
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 38533.532655019444,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 197,
+              "objective": 38549.53109683519,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 38718.612466526814,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 62,
+              "objective": 38733.79155936501,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [
+            "lens.gamma",
+            "lens.e1",
+            "lens.center_x",
+            "source.R_sersic"
+          ],
+          "chi2": 38533.532655019444,
+          "chi2_per_dof": 2.6345913205947933,
+          "converged": true,
+          "dof": 14626,
+          "elapsed_seconds": 17.5856207080069,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": -0.19997609852035939,
+            "lens.center_y": 0.05725110792807163,
+            "lens.e1": 0.44999543183690516,
+            "lens.e2": 0.13350725892109813,
+            "lens.gamma": 1.6000194777773877,
+            "lens.gamma1": 0.02866757437963201,
+            "lens.gamma2": 0.09270038863189378,
+            "lens.theta_E": 0.4900474051456914,
+            "source.R_sersic": 0.7999999929927111,
+            "source.amp": 0.2461883548602858,
+            "source.center_x": -0.09365855302590685,
+            "source.center_y": 0.19464345228900543,
+            "source.e1": 0.2618655913954662,
+            "source.e2": -0.012136408522824452,
+            "source.n_sersic": 2.6443645979868817
+          },
+          "prior_penalty": 15.998441815747356,
+          "status": 2
+        }
+      },
+      "id": "102159196_2750719383660442039",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102159196_2750719383660442039_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7752,
+        "sigma_native_flux_per_pixel": 0.0022375237152327805,
+        "sky_native_flux_per_pixel": 0.00021939404541626573,
+        "usable_pixels": 14641
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.1023522708157532,
+        "ref_ell_comp_0": 0.19980036787274966,
+        "ref_ell_comp_1": -0.13529865305750072,
+        "ref_shear_g1": -0.1816442370146976,
+        "ref_shear_g2": 0.014809511915478066
+      },
+      "shape": [
+        121,
+        121
+      ]
+    },
+    {
+      "file": "102159773_2677079122669151496_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 1954104.1886339723,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 42,
+              "objective": 1954104.1886339723,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 1674908.9983946555,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 95,
+              "objective": 1674908.9983946555,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 1674908.9983946555,
+          "chi2_per_dof": 112.64436064258898,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 9.642485249962192,
+          "message": "`xtol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.0939763473862498,
+            "lens.center_y": 0.03094976417103689,
+            "lens.e1": -0.43625904439008534,
+            "lens.e2": -0.3864658368513227,
+            "lens.gamma": 1.6054512710329112,
+            "lens.gamma1": -0.10929550420294824,
+            "lens.gamma2": -0.14292473269488368,
+            "lens.theta_E": 0.4004548463873954,
+            "source.R_sersic": 0.7325609789526133,
+            "source.amp": 5.851814700023033,
+            "source.center_x": 0.22722380883943372,
+            "source.center_y": 0.08278569001767863,
+            "source.e1": 0.32410806492289523,
+            "source.e2": 0.2440235248758589,
+            "source.n_sersic": 2.4152501142353873
+          },
+          "prior_penalty": 0.0,
+          "status": 3
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 1936751.1795475762,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 45,
+              "objective": 1936766.8367869707,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 1591806.6986026808,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 120,
+              "objective": 1591822.4126945513,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 1591806.6986026808,
+          "chi2_per_dof": 107.05539704100349,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 12.465077915985603,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": 0.1025431520032356,
+            "lens.center_y": 0.03155924162407686,
+            "lens.e1": -0.4477472511255892,
+            "lens.e2": -0.3798173795030639,
+            "lens.gamma": 1.603589961398262,
+            "lens.gamma1": -0.10707017176242044,
+            "lens.gamma2": -0.14493900445497657,
+            "lens.theta_E": 0.400631790506967,
+            "source.R_sersic": 0.7662187020265661,
+            "source.amp": 5.635406924618823,
+            "source.center_x": 0.24886459953933535,
+            "source.center_y": 0.0848585812453182,
+            "source.e1": 0.32612747564988664,
+            "source.e2": 0.25625196928253163,
+            "source.n_sersic": 2.469325931564569
+          },
+          "prior_penalty": 15.71409187046811,
+          "status": 4
+        }
+      },
+      "id": "102159773_2677079122669151496",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102159773_2677079122669151496_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7828,
+        "sigma_native_flux_per_pixel": 0.0027461050885018677,
+        "sky_native_flux_per_pixel": 0.0015326335560530424,
+        "usable_pixels": 14884
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 1.4366714348948413,
+        "ref_ell_comp_0": -0.06401507704022895,
+        "ref_ell_comp_1": 0.2116824038512217,
+        "ref_shear_g1": 0.06202011308528948,
+        "ref_shear_g2": -0.001773563530597584
+      },
+      "shape": [
+        122,
+        122
+      ]
+    },
+    {
+      "file": "102159776_2707047371671953097_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 30930.260748513032,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 62,
+              "objective": 30930.260748513032,
+              "start": 0,
+              "status": 4
+            },
+            {
+              "chi2_data": 30884.468050410836,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 48,
+              "objective": 30884.468050410836,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 30884.468050410836,
+          "chi2_per_dof": 2.0942881976273706,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 7.185935875051655,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.04548846248346713,
+            "lens.center_y": -0.06185866743456098,
+            "lens.e1": 0.1632581376384224,
+            "lens.e2": -0.08731762164948487,
+            "lens.gamma": 1.6037843369304599,
+            "lens.gamma1": -0.0046963248257595,
+            "lens.gamma2": -0.10452733072375903,
+            "lens.theta_E": 0.5356184335187547,
+            "source.R_sersic": 0.49241517889206016,
+            "source.amp": 0.7446287502593423,
+            "source.center_x": 0.1371050154072471,
+            "source.center_y": 0.032916853238901304,
+            "source.e1": 0.08762662755230616,
+            "source.e2": 0.31159948748887817,
+            "source.n_sersic": 1.8270115248717471
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 30934.47678669962,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 65,
+              "objective": 30950.214969600926,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 30935.899164720224,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 62,
+              "objective": 30951.871889815542,
+              "start": 1,
+              "status": 3
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 30934.47678669962,
+          "chi2_per_dof": 2.0976793101444104,
+          "converged": true,
+          "dof": 14747,
+          "elapsed_seconds": 8.302355541964062,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.00504921676231708,
+            "lens.center_y": -0.05645176526566624,
+            "lens.e1": 0.28499544356264117,
+            "lens.e2": -0.07473001993541926,
+            "lens.gamma": 1.60328621272623,
+            "lens.gamma1": 0.09702253922520161,
+            "lens.gamma2": -0.09474804446479371,
+            "lens.theta_E": 0.5653498025191374,
+            "source.R_sersic": 0.4513447821361165,
+            "source.amp": 0.8115593493936277,
+            "source.center_x": 0.0989848561511574,
+            "source.center_y": 0.04750073233977517,
+            "source.e1": -0.03818317152091551,
+            "source.e2": 0.278665067216473,
+            "source.n_sersic": 1.7693328771893346
+          },
+          "prior_penalty": 15.738182901306573,
+          "status": 2
+        }
+      },
+      "id": "102159776_2707047371671953097",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102159776_2707047371671953097_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7790,
+        "sigma_native_flux_per_pixel": 0.0031164885443502256,
+        "sky_native_flux_per_pixel": 0.00035707111237570643,
+        "usable_pixels": 14762
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.7173508189363766,
+        "ref_ell_comp_0": 0.1320940286167789,
+        "ref_ell_comp_1": 0.03934009239674209,
+        "ref_shear_g1": -0.07034249054455277,
+        "ref_shear_g2": 0.03762043346313249
+      },
+      "shape": [
+        121,
+        122
+      ]
+    },
+    {
+      "file": "102160335_2682061397679348286_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 64856.6037839533,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 45,
+              "objective": 64856.6037839533,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 63850.68426507097,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 144,
+              "objective": 63850.68426507097,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 63850.68426507097,
+          "chi2_per_dof": 4.29421509617802,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 15.059630666975863,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.10050028772932142,
+            "lens.center_y": 0.15479523346666374,
+            "lens.e1": -0.36978511196865915,
+            "lens.e2": -0.4301566716582027,
+            "lens.gamma": 1.6008101368789087,
+            "lens.gamma1": 0.07056422775495214,
+            "lens.gamma2": -0.1476249951042188,
+            "lens.theta_E": 0.40070901319245805,
+            "source.R_sersic": 0.6102976561110585,
+            "source.amp": 0.9704819673698233,
+            "source.center_x": 0.23640617179188705,
+            "source.center_y": 0.13616500170777093,
+            "source.e1": -0.20628876162754584,
+            "source.e2": 0.19407124932415093,
+            "source.n_sersic": 2.650943913839071
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 64412.60910190469,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 50,
+              "objective": 64428.600403122735,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 63672.3151551471,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 153,
+              "objective": 63688.17184829219,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [
+            "lens.theta_E"
+          ],
+          "chi2": 63672.3151551471,
+          "chi2_per_dof": 4.282219056772285,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 16.133348291972652,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.10328743905901178,
+            "lens.center_y": 0.1367547235355217,
+            "lens.e1": -0.35579352029925115,
+            "lens.e2": -0.42463230097863974,
+            "lens.gamma": 1.601795364855057,
+            "lens.gamma1": 0.071833241717514,
+            "lens.gamma2": -0.1495421197001109,
+            "lens.theta_E": 0.40000138868397356,
+            "source.R_sersic": 0.672659387075378,
+            "source.amp": 0.8307396180823987,
+            "source.center_x": 0.23687628408331238,
+            "source.center_y": 0.12979556086114527,
+            "source.e1": -0.1841607747436104,
+            "source.e2": 0.20639246191884583,
+            "source.n_sersic": 2.7481150816943924
+          },
+          "prior_penalty": 15.856693145091413,
+          "status": 2
+        }
+      },
+      "id": "102160335_2682061397679348286",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102160335_2682061397679348286_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7828,
+        "sigma_native_flux_per_pixel": 0.0031889767161159257,
+        "sky_native_flux_per_pixel": 0.001980664557777345,
+        "usable_pixels": 14884
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.6585158874388524,
+        "ref_ell_comp_0": -0.14553798208533786,
+        "ref_ell_comp_1": 0.03178684787316921,
+        "ref_shear_g1": -0.00978089790818834,
+        "ref_shear_g2": -0.1787897014811797
+      },
+      "shape": [
+        122,
+        122
+      ]
+    },
+    {
+      "file": "102160340_2740784519677600444_VIS.fits",
+      "fits": {
+        "free": {
+          "attempts": [
+            {
+              "chi2_data": 28149.53669374343,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 48,
+              "objective": 28149.53669374343,
+              "start": 0,
+              "status": 2
+            },
+            {
+              "chi2_data": 28328.038000572997,
+              "converged": true,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 62,
+              "objective": 28328.038000572997,
+              "start": 1,
+              "status": 2
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 28149.53669374343,
+          "chi2_per_dof": 1.8931694595294526,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 7.461053874983918,
+          "message": "`ftol` termination condition is satisfied.",
+          "parameters": {
+            "lens.center_x": 0.19403247889995062,
+            "lens.center_y": 0.07078086442482674,
+            "lens.e1": -0.359159664550515,
+            "lens.e2": -0.3750206749187567,
+            "lens.gamma": 1.6010948285091475,
+            "lens.gamma1": 0.036883011705582384,
+            "lens.gamma2": -0.03343143667973371,
+            "lens.theta_E": 0.41953595621463674,
+            "source.R_sersic": 0.3648279163558207,
+            "source.amp": 0.8955926650098808,
+            "source.center_x": 0.35305935184757803,
+            "source.center_y": 0.12843263146444808,
+            "source.e1": -0.07142851793022625,
+            "source.e2": 0.13459337869410232,
+            "source.n_sersic": 2.018460001199675
+          },
+          "prior_penalty": 0.0,
+          "status": 2
+        },
+        "gamma_prior_sigma_0.1": {
+          "attempts": [
+            {
+              "chi2_data": 29528.536383621387,
+              "converged": true,
+              "message": "`xtol` termination condition is satisfied.",
+              "nfev": 69,
+              "objective": 29544.168078069153,
+              "start": 0,
+              "status": 3
+            },
+            {
+              "chi2_data": 26938.609663696458,
+              "converged": true,
+              "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+              "nfev": 62,
+              "objective": 26954.26176987864,
+              "start": 1,
+              "status": 4
+            }
+          ],
+          "boundary_parameters": [],
+          "chi2": 26938.609663696458,
+          "chi2_per_dof": 1.8117297507361934,
+          "converged": true,
+          "dof": 14869,
+          "elapsed_seconds": 9.374583332973998,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "parameters": {
+            "lens.center_x": 0.19976399143255652,
+            "lens.center_y": 0.1519373605270399,
+            "lens.e1": -0.3577170550500054,
+            "lens.e2": -0.4453989804130927,
+            "lens.gamma": 1.6043725719545503,
+            "lens.gamma1": 0.08647738571712008,
+            "lens.gamma2": -0.09232584106687296,
+            "lens.theta_E": 0.40156881595553506,
+            "source.R_sersic": 0.5827660431225433,
+            "source.amp": 0.571933892841043,
+            "source.center_x": 0.3487999096890358,
+            "source.center_y": 0.1907706078745923,
+            "source.e1": -0.3248056580796081,
+            "source.e2": 0.17877367736839772,
+            "source.n_sersic": 2.659898645074511
+          },
+          "prior_penalty": 15.65210618218407,
+          "status": 4
+        }
+      },
+      "id": "102160340_2740784519677600444",
+      "observation": {
+        "bunit": null,
+        "exposure_header": null,
+        "file": "102160340_2740784519677600444_VIS.fits",
+        "magzero": 24.6,
+        "mask_rule": "finite and not more than 8 estimated sky sigmas below outer-border median; preserve positive source flux",
+        "noise_model": "constant sky-only MAD from outer 15% border; gain/exposure unknown",
+        "pixel_scale_arcsec": 0.10000000000000793,
+        "psf_fwhm_arcsec_assumed": 0.16,
+        "psf_fwhm_provenance": "0.16 arcsec approximation in docs/DATA.md; not verified per cutout",
+        "psf_model": "circular Gaussian",
+        "rejected_pixels": 0,
+        "ring_pixels": 7828,
+        "sigma_native_flux_per_pixel": 0.002247294120989226,
+        "sky_native_flux_per_pixel": 0.0005870109889656305,
+        "usable_pixels": 14884
+      },
+      "reference": {
+        "ref_einstein_radius_arcsec": 0.8172869071497454,
+        "ref_ell_comp_0": 0.1555395121552957,
+        "ref_ell_comp_1": -0.11675592612721937,
+        "ref_shear_g1": 0.00345529800489193,
+        "ref_shear_g2": 0.03595017893122032
+      },
+      "shape": [
+        122,
+        122
+      ]
+    }
+  ]
+}

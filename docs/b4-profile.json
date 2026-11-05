@@ -1,0 +1,35 @@
+{
+  "baseline_seconds": 0.19650083396118134,
+  "converged_grid_points": 27,
+  "cpu_affinity_api_available": false,
+  "cpu_affinity_enforced": false,
+  "estimated_grid_seconds_per_point": 0.17614071448419796,
+  "field_generation_speedup": 0.7141416095633941,
+  "field_max_abs_difference_arcsec": 0.0,
+  "format": "skia-scan-profile-v1",
+  "grid_points": 27,
+  "grid_shape": [
+    3,
+    3,
+    3
+  ],
+  "jax_backend": "cpu",
+  "machine": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "max_nfev": 120,
+  "pixel_shape": [
+    30,
+    30
+  ],
+  "processor": "arm",
+  "profile_top_cumulative": "         70600 function calls (69824 primitive calls) in 5.445 seconds\n\n   Ordered by: cumulative time\n   List reduced from 306 to 15 due to restriction <15>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.001    0.001    5.445    5.445 scanner.py:115(scan)\n       28    0.009    0.000    5.400    0.193 fitter.py:200(fit_cutout)\n       27    0.001    0.000    5.234    0.194 scanner.py:153(complete_point)\n       28    0.001    0.000    5.217    0.186 _util.py:650(inner)\n       28    0.004    0.000    5.216    0.186 least_squares.py:266(least_squares)\n      290    0.002    0.000    4.978    0.017 least_squares.py:262(__call__)\n     3321    4.872    0.001    4.872    0.001 {built-in method numpy.asarray}\n      145    0.030    0.000    4.353    0.030 fitter.py:222(jacobian)\n      145    0.018    0.000    4.311    0.030 fitter.py:153(jacobian)\n       28    0.001    0.000    4.197    0.150 trf.py:113(trf)\n       28    0.021    0.001    4.196    0.150 trf.py:206(trf_bounds)\n      145    0.001    0.000    3.513    0.024 _differentiable_functions.py:748(jac)\n      145    0.002    0.000    3.507    0.024 _differentiable_functions.py:711(_update_jac)\n      117    0.002    0.000    3.505    0.030 _differentiable_functions.py:447(__call__)\n       28    0.002    0.000    1.007    0.036 _differentiable_functions.py:542(__init__)\n\n\n",
+  "python": "3.14.1",
+  "scalar_field_seconds": 0.03236266603926197,
+  "scan_seconds_including_baseline": 4.952300125034526,
+  "serial_process": true,
+  "starts": 1,
+  "thread_env_limit": 1,
+  "vectorized_field_seconds": 0.045316874980926514,
+  "vectorized_scan_seconds_including_baseline": 5.339288207993377,
+  "vectorized_scan_speedup": 0.9275206604544223,
+  "warm_jax": true
+}

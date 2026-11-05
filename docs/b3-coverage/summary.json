@@ -1,0 +1,228 @@
+{
+  "all_finite": {
+    "count": 200,
+    "parameters": {
+      "lens.center_x": {
+        "available": 200,
+        "nominal_68_count": 122,
+        "nominal_68_fraction": 0.61,
+        "nominal_95_count": 180,
+        "nominal_95_fraction": 0.9
+      },
+      "lens.center_y": {
+        "available": 200,
+        "nominal_68_count": 135,
+        "nominal_68_fraction": 0.675,
+        "nominal_95_count": 184,
+        "nominal_95_fraction": 0.92
+      },
+      "lens.e1": {
+        "available": 200,
+        "nominal_68_count": 136,
+        "nominal_68_fraction": 0.68,
+        "nominal_95_count": 181,
+        "nominal_95_fraction": 0.905
+      },
+      "lens.e2": {
+        "available": 200,
+        "nominal_68_count": 139,
+        "nominal_68_fraction": 0.695,
+        "nominal_95_count": 185,
+        "nominal_95_fraction": 0.925
+      },
+      "lens.gamma": {
+        "available": 200,
+        "nominal_68_count": 132,
+        "nominal_68_fraction": 0.66,
+        "nominal_95_count": 191,
+        "nominal_95_fraction": 0.955
+      },
+      "lens.gamma1": {
+        "available": 200,
+        "nominal_68_count": 142,
+        "nominal_68_fraction": 0.71,
+        "nominal_95_count": 186,
+        "nominal_95_fraction": 0.93
+      },
+      "lens.gamma2": {
+        "available": 200,
+        "nominal_68_count": 134,
+        "nominal_68_fraction": 0.67,
+        "nominal_95_count": 185,
+        "nominal_95_fraction": 0.925
+      },
+      "lens.theta_E": {
+        "available": 200,
+        "nominal_68_count": 133,
+        "nominal_68_fraction": 0.665,
+        "nominal_95_count": 181,
+        "nominal_95_fraction": 0.905
+      },
+      "source.R_sersic": {
+        "available": 200,
+        "nominal_68_count": 141,
+        "nominal_68_fraction": 0.705,
+        "nominal_95_count": 191,
+        "nominal_95_fraction": 0.955
+      },
+      "source.amp": {
+        "available": 200,
+        "nominal_68_count": 132,
+        "nominal_68_fraction": 0.66,
+        "nominal_95_count": 185,
+        "nominal_95_fraction": 0.925
+      },
+      "source.center_x": {
+        "available": 200,
+        "nominal_68_count": 135,
+        "nominal_68_fraction": 0.675,
+        "nominal_95_count": 188,
+        "nominal_95_fraction": 0.94
+      },
+      "source.center_y": {
+        "available": 200,
+        "nominal_68_count": 119,
+        "nominal_68_fraction": 0.595,
+        "nominal_95_count": 191,
+        "nominal_95_fraction": 0.955
+      },
+      "source.e1": {
+        "available": 200,
+        "nominal_68_count": 140,
+        "nominal_68_fraction": 0.7,
+        "nominal_95_count": 190,
+        "nominal_95_fraction": 0.95
+      },
+      "source.e2": {
+        "available": 200,
+        "nominal_68_count": 132,
+        "nominal_68_fraction": 0.66,
+        "nominal_95_count": 189,
+        "nominal_95_fraction": 0.945
+      },
+      "source.n_sersic": {
+        "available": 200,
+        "nominal_68_count": 134,
+        "nominal_68_fraction": 0.67,
+        "nominal_95_count": 187,
+        "nominal_95_fraction": 0.935
+      }
+    }
+  },
+  "attempted": 200,
+  "bound_contacts": 10,
+  "converged_interior": {
+    "count": 190,
+    "parameters": {
+      "lens.center_x": {
+        "available": 190,
+        "nominal_68_count": 119,
+        "nominal_68_fraction": 0.6263157894736842,
+        "nominal_95_count": 176,
+        "nominal_95_fraction": 0.9263157894736842
+      },
+      "lens.center_y": {
+        "available": 190,
+        "nominal_68_count": 134,
+        "nominal_68_fraction": 0.7052631578947368,
+        "nominal_95_count": 180,
+        "nominal_95_fraction": 0.9473684210526315
+      },
+      "lens.e1": {
+        "available": 190,
+        "nominal_68_count": 134,
+        "nominal_68_fraction": 0.7052631578947368,
+        "nominal_95_count": 177,
+        "nominal_95_fraction": 0.9315789473684211
+      },
+      "lens.e2": {
+        "available": 190,
+        "nominal_68_count": 135,
+        "nominal_68_fraction": 0.7105263157894737,
+        "nominal_95_count": 180,
+        "nominal_95_fraction": 0.9473684210526315
+      },
+      "lens.gamma": {
+        "available": 190,
+        "nominal_68_count": 129,
+        "nominal_68_fraction": 0.6789473684210526,
+        "nominal_95_count": 185,
+        "nominal_95_fraction": 0.9736842105263158
+      },
+      "lens.gamma1": {
+        "available": 190,
+        "nominal_68_count": 139,
+        "nominal_68_fraction": 0.7315789473684211,
+        "nominal_95_count": 182,
+        "nominal_95_fraction": 0.9578947368421052
+      },
+      "lens.gamma2": {
+        "available": 190,
+        "nominal_68_count": 129,
+        "nominal_68_fraction": 0.6789473684210526,
+        "nominal_95_count": 180,
+        "nominal_95_fraction": 0.9473684210526315
+      },
+      "lens.theta_E": {
+        "available": 190,
+        "nominal_68_count": 130,
+        "nominal_68_fraction": 0.6842105263157895,
+        "nominal_95_count": 178,
+        "nominal_95_fraction": 0.9368421052631579
+      },
+      "source.R_sersic": {
+        "available": 190,
+        "nominal_68_count": 138,
+        "nominal_68_fraction": 0.7263157894736842,
+        "nominal_95_count": 184,
+        "nominal_95_fraction": 0.968421052631579
+      },
+      "source.amp": {
+        "available": 190,
+        "nominal_68_count": 128,
+        "nominal_68_fraction": 0.6736842105263158,
+        "nominal_95_count": 180,
+        "nominal_95_fraction": 0.9473684210526315
+      },
+      "source.center_x": {
+        "available": 190,
+        "nominal_68_count": 133,
+        "nominal_68_fraction": 0.7,
+        "nominal_95_count": 183,
+        "nominal_95_fraction": 0.9631578947368421
+      },
+      "source.center_y": {
+        "available": 190,
+        "nominal_68_count": 117,
+        "nominal_68_fraction": 0.6157894736842106,
+        "nominal_95_count": 182,
+        "nominal_95_fraction": 0.9578947368421052
+      },
+      "source.e1": {
+        "available": 190,
+        "nominal_68_count": 134,
+        "nominal_68_fraction": 0.7052631578947368,
+        "nominal_95_count": 183,
+        "nominal_95_fraction": 0.9631578947368421
+      },
+      "source.e2": {
+        "available": 190,
+        "nominal_68_count": 128,
+        "nominal_68_fraction": 0.6736842105263158,
+        "nominal_95_count": 183,
+        "nominal_95_fraction": 0.9631578947368421
+      },
+      "source.n_sersic": {
+        "available": 190,
+        "nominal_68_count": 130,
+        "nominal_68_fraction": 0.6842105263157895,
+        "nominal_95_count": 181,
+        "nominal_95_fraction": 0.9526315789473684
+      }
+    }
+  },
+  "failed": 0,
+  "finite": 200,
+  "rank_deficient": 0,
+  "unconverged": 0
+}

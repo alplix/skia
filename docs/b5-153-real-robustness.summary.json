@@ -1,0 +1,3605 @@
+{
+  "baseline_failures": [
+    {
+      "file": "102019128_NEG607555025503027911_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102019588_NEG581189290502362418_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102019594_NEG620978815501656388_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102020532_NEG591117402487550021_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102021016_NEG627891706482718950_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102021018_NEG640120110483854165_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102021988_NEG640289253474412348_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102042283_NEG518770667295125494_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102042918_NEG544805259289548872_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102042919_NEG549525883291619345_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102044824_NEG528789191276364582_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102045468_NEG534525411271636586_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102157956_2700546205640397835_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102157958_2719195933641972975_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102159189_2663231466659368059_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102159196_2750719383660442039_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    },
+    {
+      "file": "102160337_2701254133678933511_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0
+    }
+  ],
+  "boundary_contacts": 572,
+  "cutouts": 153,
+  "format": "skia-b5-robustness-v1",
+  "grid_points_total": 1836,
+  "hard_errors": [],
+  "reference_comparison": {
+    "axis_ratio_difference": {
+      "median": -0.30771706408249355,
+      "median_absolute": 0.30771706408249355,
+      "p16": -0.5009842980531111,
+      "p84": -0.10888465938812901,
+      "rmse": 0.3625823779565848
+    },
+    "shear_difference": {
+      "median": 0.02849320698781186,
+      "median_absolute": 0.06611032418762641,
+      "p16": -0.06692413173760038,
+      "p84": 0.10151314728377812,
+      "rmse": 0.0917590992930914
+    },
+    "theta_E_difference_arcsec": {
+      "median": -0.41566578911478647,
+      "median_absolute": 0.41849623895212196,
+      "p16": -0.6865627499929579,
+      "p84": -0.19948699120308935,
+      "rmse": 0.5025012687972706
+    }
+  },
+  "reference_comparison_n": 153,
+  "unconverged_points": [
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77838.71098927627,
+      "file": "102018667_NEG587746535508057234_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77838.71098927627,
+      "file": "102018667_NEG587746535508057234_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77838.71098927627,
+      "file": "102018667_NEG587746535508057234_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77838.71098927627,
+      "file": "102018667_NEG587746535508057234_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 99744.74317834227,
+      "file": "102018667_NEG587746535508057234_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.e2",
+        "lens.gamma1",
+        "lens.gamma2"
+      ],
+      "chi2": 70373.36522335626,
+      "file": "102018668_NEG595646727509469177_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.e1",
+        "source.e1"
+      ],
+      "chi2": 124811.62604121238,
+      "file": "102019127_NEG598523367504401932_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.e1",
+        "source.e1"
+      ],
+      "chi2": 121782.00283457359,
+      "file": "102019127_NEG598523367504401932_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 537089.3928219881,
+      "file": "102019128_NEG607555025503027911_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 602961.812654525,
+      "file": "102019128_NEG607555025503027911_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 398703.2827208684,
+      "file": "102019128_NEG607555025503027911_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 601842.0307681657,
+      "file": "102019128_NEG607555025503027911_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 739956.7504093102,
+      "file": "102019586_NEG564463213499964061_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 1452293.9630651362,
+      "file": "102019588_NEG581189290502362418_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.center_x",
+        "lens.gamma2"
+      ],
+      "chi2": 1424726.5996419168,
+      "file": "102019588_NEG581189290502362418_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 295819.4603581104,
+      "file": "102019592_NEG606434619500983922_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182975613.08629584,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182765755.5824114,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182460042.70971954,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182975613.08629584,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 183062706.4701909,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 183101937.15392902,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182975613.08629584,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182564880.38628817,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 181908420.4650828,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182975613.08629584,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 182367107.03745836,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2",
+        "lens.center_x",
+        "lens.center_y",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.n_sersic",
+        "source.center_x",
+        "source.center_y"
+      ],
+      "chi2": 181496068.7747849,
+      "file": "102019595_NEG630246532498667881_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 541343.4914607959,
+      "file": "102020055_NEG564676209494509344_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 221264.32571743225,
+      "file": "102020056_NEG568919155497446978_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 297560.6331904532,
+      "file": "102020056_NEG568919155497446978_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 234107.39045521436,
+      "file": "102020056_NEG569381219495998178_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 91756.59467979816,
+      "file": "102020059_NEG595972740496354540_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 539621.3700170711,
+      "file": "102020060_NEG598920538496078263_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 540971.3848128523,
+      "file": "102020060_NEG598920538496078263_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 533779.9042380417,
+      "file": "102020060_NEG598920538496078263_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 539621.3700170711,
+      "file": "102020060_NEG598920538496078263_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 539621.3700170711,
+      "file": "102020060_NEG598920538496078263_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 539621.3700170711,
+      "file": "102020060_NEG598920538496078263_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 162811.48558042082,
+      "file": "102020064_NEG635872258496841682_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 177958.47980562155,
+      "file": "102020064_NEG635872258496841682_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 655749.0366167675,
+      "file": "102020528_NEG554976975487853956_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 88608.75057672008,
+      "file": "102020532_NEG591117402487550021_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 92758.76535144291,
+      "file": "102020532_NEG591117402487550021_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 86277.09393527052,
+      "file": "102020532_NEG591117402487550021_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 92009.12406659023,
+      "file": "102020532_NEG591117402487550021_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 90079.41550894995,
+      "file": "102020532_NEG591117402487550021_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 103672.15650187354,
+      "file": "102020533_NEG596261344490617547_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 235167.03881365576,
+      "file": "102020536_NEG621645331488224037_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 30956.849035416402,
+      "file": "102020538_NEG631689440492354239_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.e2"
+      ],
+      "chi2": 39748.42481380961,
+      "file": "102020538_NEG637045736489835935_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.e1",
+        "lens.e2",
+        "source.e2"
+      ],
+      "chi2": 34378.82949755908,
+      "file": "102020538_NEG637045736489835935_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 80520.47010584708,
+      "file": "102020539_NEG641383802490968352_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 43740.407679751064,
+      "file": "102021006_NEG554672577486973111_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 64807.64621557049,
+      "file": "102021014_NEG612545150486042170_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 64807.64621557049,
+      "file": "102021014_NEG612545150486042170_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 64807.64621557049,
+      "file": "102021014_NEG612545150486042170_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 64807.64621557049,
+      "file": "102021014_NEG612545150486042170_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.center_y",
+        "lens.gamma1"
+      ],
+      "chi2": 27119.354401100412,
+      "file": "102021017_NEG637928660482715254_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 252175.1801416967,
+      "file": "102021018_NEG640120110483854165_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.e2"
+      ],
+      "chi2": 305796.84662410634,
+      "file": "102021018_NEG640120110483854165_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 54711.12789022669,
+      "file": "102021019_NEG651956451483599583_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 54711.12789022669,
+      "file": "102021019_NEG651956451483599583_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 54711.12789022669,
+      "file": "102021019_NEG651956451483599583_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 54711.12789022669,
+      "file": "102021019_NEG651956451483599583_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 41690.088601942625,
+      "file": "102021493_NEG586398445479765591_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 32087.086272566627,
+      "file": "102021493_NEG586398445479765591_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 43026.14539570407,
+      "file": "102021493_NEG586398445479765591_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 36726.42909322826,
+      "file": "102021493_NEG586398445479765591_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 843155.5703573066,
+      "file": "102021493_NEG587807121477852004_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 1677054.408222625,
+      "file": "102021980_NEG576667803474825283_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 60499.49015771039,
+      "file": "102021980_NEG577646036477033395_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 64540.461634909094,
+      "file": "102021980_NEG577646036477033395_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 266167.3097358446,
+      "file": "102021984_NEG609678648473892045_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 44851.5434838285,
+      "file": "102021984_NEG610367881474644147_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 44283.22289393954,
+      "file": "102021984_NEG610367881474644147_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 175977.65445721828,
+      "file": "102021987_NEG632575884473969454_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 3335253.4307878073,
+      "file": "102021988_NEG640289253474412348_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 2760411.5345320846,
+      "file": "102021988_NEG640289253474412348_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 3335253.4307878073,
+      "file": "102021988_NEG640289253474412348_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 3335253.4307878073,
+      "file": "102021988_NEG640289253474412348_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 3335253.4307878073,
+      "file": "102021988_NEG640289253474412348_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 51847.787111579964,
+      "file": "102021989_NEG644172618476134973_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 80348.8639271565,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma"
+      ],
+      "chi2": 80311.26364106043,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 80238.10025800506,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 80348.8639271565,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 80335.65896421525,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 80204.01597162109,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 80348.8639271565,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 80333.39887796679,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 80348.8639271565,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 80208.63576511218,
+      "file": "102022980_NEG657553777465731159_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 113284.67506885953,
+      "file": "102023478_NEG628457640459296313_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 166506.28030021567,
+      "file": "102023479_NEG631968882458727056_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 163953.93457499112,
+      "file": "102023479_NEG631968882458727056_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 37184.43969170924,
+      "file": "102023481_NEG647245161459048846_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 37184.43969170924,
+      "file": "102023481_NEG647245161459048846_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 39838.16610260295,
+      "file": "102023481_NEG647245161459048846_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 37184.43969170924,
+      "file": "102023481_NEG647245161459048846_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 37184.43969170924,
+      "file": "102023481_NEG647245161459048846_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 113598.24158320407,
+      "file": "102041657_NEG527925237298894414_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 80968.37792208983,
+      "file": "102041657_NEG527925237298894414_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 616683.7114181517,
+      "file": "102042283_NEG518770667295125494_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 616683.7114181517,
+      "file": "102042283_NEG518770667295125494_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 616683.7114181517,
+      "file": "102042283_NEG518770667295125494_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 444969.18001648283,
+      "file": "102042283_NEG518770667295125494_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 616683.7114181517,
+      "file": "102042283_NEG518770667295125494_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.e2"
+      ],
+      "chi2": 88357.01023411195,
+      "file": "102042915_NEG527574180288799276_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 68056.90772235877,
+      "file": "102042917_NEG539279061291936993_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2"
+      ],
+      "chi2": 63353.16417211742,
+      "file": "102042917_NEG540132584291926297_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2"
+      ],
+      "chi2": 63379.0844772351,
+      "file": "102042917_NEG540132584291926297_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e2"
+      ],
+      "chi2": 64563.92889917492,
+      "file": "102042917_NEG540132584291926297_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 661029.8361266339,
+      "file": "102042918_NEG544805259289548872_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.e1"
+      ],
+      "chi2": 58958.06593332853,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1",
+        "lens.gamma2"
+      ],
+      "chi2": 58811.95709832486,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.e1"
+      ],
+      "chi2": 58958.06593332853,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1"
+      ],
+      "chi2": 58486.68969807742,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1"
+      ],
+      "chi2": 57645.37935339575,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.e1"
+      ],
+      "chi2": 58958.06593332853,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.gamma1",
+        "lens.gamma2"
+      ],
+      "chi2": 58058.23951455082,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.gamma1"
+      ],
+      "chi2": 56874.70256631001,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1",
+        "lens.gamma2",
+        "source.e1"
+      ],
+      "chi2": 58958.06593332853,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.gamma1"
+      ],
+      "chi2": 58771.52897847043,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x"
+      ],
+      "chi2": 58531.49407330978,
+      "file": "102042919_NEG550683279289700727_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 426190.8177901725,
+      "file": "102043551_NEG546245791286829440_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 128070.43113856396,
+      "file": "102043552_NEG548209510282510524_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 84676.39756622238,
+      "file": "102044182_NEG512061540278527911_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 96096.44982736857,
+      "file": "102044182_NEG512061540278527911_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.center_x",
+        "source.R_sersic",
+        "source.e1"
+      ],
+      "chi2": 57992.81344761801,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.center_x",
+        "source.e1"
+      ],
+      "chi2": 58456.352086555824,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.center_x",
+        "source.R_sersic",
+        "source.e1"
+      ],
+      "chi2": 57992.81344761801,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 59678.95214690161,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.center_x",
+        "source.e1"
+      ],
+      "chi2": 58110.166023174985,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.center_x",
+        "source.R_sersic",
+        "source.e1"
+      ],
+      "chi2": 57992.81344761801,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.e2",
+        "lens.center_x",
+        "source.R_sersic",
+        "source.e1"
+      ],
+      "chi2": 58087.59547630604,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.center_x",
+        "source.R_sersic",
+        "source.e1"
+      ],
+      "chi2": 57992.81344761801,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.e2",
+        "lens.center_x",
+        "source.R_sersic",
+        "source.e1"
+      ],
+      "chi2": 58030.907367621876,
+      "file": "102044182_NEG514435270280350833_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 98491.21356120773,
+      "file": "102044187_NEG538575988280255664_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 461970.49374420696,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 363672.52583318204,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 461970.49374420696,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 439556.110116296,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 658502.3727056994,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 461970.49374420696,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 505051.5743592009,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 450737.66386363417,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 461970.49374420696,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 454996.61097572226,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 474369.6782139574,
+      "file": "102044188_NEG548070624278595332_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "source.center_x"
+      ],
+      "chi2": 69773.0614042638,
+      "file": "102044824_NEG528789191276364582_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 69843.86850629532,
+      "file": "102044824_NEG528789191276364582_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma",
+        "source.center_x"
+      ],
+      "chi2": 69757.02813978257,
+      "file": "102044824_NEG528789191276364582_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.center_x",
+        "source.R_sersic",
+        "source.center_x"
+      ],
+      "chi2": 69915.34751888286,
+      "file": "102044824_NEG528789191276364582_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 483920.374031372,
+      "file": "102044825_NEG534081174272937149_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 433138.4631705475,
+      "file": "102044825_NEG534081174272937149_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 437663.86774716317,
+      "file": "102044825_NEG534081174272937149_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 490966.0139937372,
+      "file": "102044825_NEG534081174272937149_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77652.69050225991,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 47457.79492396255,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 54605.45507252368,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77652.69050225991,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77652.69050225991,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 69149.44132975827,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 77652.69050225991,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 51327.82247741225,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 43373.645696032414,
+      "file": "102044826_NEG537879168275630474_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.gamma",
+        "source.e1"
+      ],
+      "chi2": 24284.44402877735,
+      "file": "102045468_NEG534525411271636586_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.gamma",
+        "lens.center_x",
+        "lens.center_y",
+        "source.e1"
+      ],
+      "chi2": 24355.50972343789,
+      "file": "102045468_NEG534525411271636586_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 479968.6805601618,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 479822.26844032854,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma"
+      ],
+      "chi2": 479439.70746203966,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 479968.6805601618,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma"
+      ],
+      "chi2": 479635.97163210285,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 479968.6805601618,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 480159.46494709456,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 479968.6805601618,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 479437.96744753764,
+      "file": "102157953_2668288172639391107_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330510375.716196,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330435367.448137,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330193515.437031,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330510375.716196,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330501850.2074795,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330337228.609319,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330510375.716196,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330525384.727383,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330270680.519726,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330510375.716196,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5330578657.301619,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.center_x",
+        "lens.gamma1",
+        "source.R_sersic",
+        "source.n_sersic",
+        "source.e1",
+        "source.center_x"
+      ],
+      "chi2": 5329830550.210483,
+      "file": "102157955_2685490710638126805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 195970.39058368368,
+      "file": "102157958_2719195933641972975_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 120303.29753854046,
+      "file": "102158270_2654337786643538414_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma1"
+      ],
+      "chi2": 243872.8660097485,
+      "file": "102158270_2656815066646473630_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E",
+        "lens.gamma",
+        "lens.e1",
+        "lens.e2",
+        "source.e2"
+      ],
+      "chi2": 106776.66893985026,
+      "file": "102158271_2672343829643151429_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 1088053.342898776,
+      "file": "102158272_2678087036644598709_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 1107225.4883782878,
+      "file": "102158272_2678087036644598709_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 56481.55967427237,
+      "file": "102158274_2704723597642696271_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 512612.075105216,
+      "file": "102158276_2727570223645896962_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 396253.85055170266,
+      "file": "102158276_2727570223645896962_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 1102892.240745481,
+      "file": "102158277_2738945549646397299_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 407738.09557319386,
+      "file": "102158584_2688149271647967093_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma",
+        "source.R_sersic"
+      ],
+      "chi2": 2870506.0821025167,
+      "file": "102158886_2641867744653343162_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 2871370.178608617,
+      "file": "102158886_2641867744653343162_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 293392.0527661906,
+      "file": "102158887_2654129070655512593_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 270715.2788443648,
+      "file": "102158887_2654129070655512593_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 169529.97268514693,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 163325.9151366349,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 168636.3914356864,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 169529.97268514693,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 167701.4167903591,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 169967.24967038966,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 169529.97268514693,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 164482.98329444492,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 164594.7499791782,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 169529.97268514693,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 172838.6474566182,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 178541.65450201387,
+      "file": "102158887_2655306065654633189_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 187252.28682156844,
+      "file": "102158887_2655528906655835262_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 85472.80018951565,
+      "file": "102158890_2683357136652678772_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 1165608.9522937732,
+      "file": "102158893_2720583810655664894_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 1289800.9906071266,
+      "file": "102158893_2720583810655664894_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 1292355.509424862,
+      "file": "102158893_2720583810655664894_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 1294880.9780017002,
+      "file": "102158893_2720583810655664894_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 2354598.999952326,
+      "file": "102158894_2733212462655784384_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 2385878.5365915047,
+      "file": "102158894_2733212462655784384_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 2334209.6502159983,
+      "file": "102158894_2733212462655784384_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 796636.7781853649,
+      "file": "102159186_2631794504660304436_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.e1"
+      ],
+      "chi2": 85578.96290212274,
+      "file": "102159186_2632387939662408264_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.e1"
+      ],
+      "chi2": 85578.96290212274,
+      "file": "102159186_2632387939662408264_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.e1"
+      ],
+      "chi2": 111984.22177772385,
+      "file": "102159186_2632387939662408264_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.e1"
+      ],
+      "chi2": 85578.96290212274,
+      "file": "102159186_2632387939662408264_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [
+        "lens.e1"
+      ],
+      "chi2": 85578.96290212274,
+      "file": "102159186_2632387939662408264_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.e1"
+      ],
+      "chi2": 91438.39645414885,
+      "file": "102159186_2632387939662408264_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 16352046.997123996,
+      "file": "102159189_2663231466659368059_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 16367647.936215665,
+      "file": "102159189_2663231466659368059_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 16352046.997123996,
+      "file": "102159189_2663231466659368059_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 16352046.997123996,
+      "file": "102159189_2663231466659368059_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.theta_E"
+      ],
+      "chi2": 16358372.728674423,
+      "file": "102159189_2663231466659368059_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 16352046.997123996,
+      "file": "102159189_2663231466659368059_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [
+        "lens.center_x"
+      ],
+      "chi2": 80599.3542458925,
+      "file": "102159189_2667596748662187959_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 382768.4668053393,
+      "file": "102159189_2669674055661286334_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 403786.6304254071,
+      "file": "102159189_2669674055661286334_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 35057.443982856545,
+      "file": "102159192_2695197869661844158_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 36693.77565681396,
+      "file": "102159192_2695197869661844158_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 454858.93982574204,
+      "file": "102159195_2734094103661424333_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 454858.93982574204,
+      "file": "102159195_2734094103661424333_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 454858.93982574204,
+      "file": "102159195_2734094103661424333_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.0,
+      "boundary_parameters": [],
+      "chi2": 454858.93982574204,
+      "file": "102159195_2734094103661424333_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 722370.6535335479,
+      "file": "102159481_2634849207665073829_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 312863.66578935116,
+      "file": "102159486_2691200739666476860_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 308403.04450690345,
+      "file": "102159486_2691200739666476860_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 309938.0277830289,
+      "file": "102159486_2691200739666476860_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 312226.08543940424,
+      "file": "102159486_2691200739666476860_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 326845.4927080082,
+      "file": "102159486_2691200739666476860_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 5106735.532492438,
+      "file": "102159488_2717571775663564534_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 221344.50832579238,
+      "file": "102159489_2730705167663624037_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [
+        "lens.gamma"
+      ],
+      "chi2": 1497953.5547568486,
+      "file": "102159773_2677079122669151496_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 1716597.71877555,
+      "file": "102159773_2677079122669151496_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 1847431.4196399937,
+      "file": "102159773_2677079122669151496_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 74881981.6358498,
+      "file": "102159777_2716319161668542331_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 62614.541431602585,
+      "file": "102160335_2682061397679348286_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 76354.96723434108,
+      "file": "102160336_2695945753681853613_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 74560.02254187287,
+      "file": "102160336_2695945753681853613_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": 0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 380963.69425279985,
+      "file": "102160337_2701254133678933511_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.02,
+      "boundary_parameters": [],
+      "chi2": 401102.48215219623,
+      "file": "102160337_2701254133678933511_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 25007.983930662198,
+      "file": "102160340_2740784519677600444_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": 0.3,
+      "y_arcsec": -0.3
+    },
+    {
+      "alpha_Rs_arcsec": 0.05,
+      "boundary_parameters": [],
+      "chi2": 783012.4171677593,
+      "file": "102160612_2743600657683668805_VIS.fits",
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 80,
+      "status": 0,
+      "x_arcsec": -0.3,
+      "y_arcsec": -0.3
+    }
+  ],
+  "unconverged_scan_points": 267
+}

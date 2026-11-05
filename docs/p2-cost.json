@@ -1,0 +1,30 @@
+{
+  "baseline_seconds": 0.06931308296043426,
+  "cpu_affinity_api_available": false,
+  "cpu_affinity_enforced": false,
+  "estimated_grid_seconds_per_point": 0.03241567200166173,
+  "estimated_lens_seconds_for_grid": 0.3286384589737281,
+  "fits_converged": 8,
+  "format": "skia-cost-v1",
+  "full_scan_seconds_including_baseline": 0.3286384589737281,
+  "grid_points": 8,
+  "grid_shape": [
+    2,
+    2,
+    2
+  ],
+  "jax_backend": "cpu",
+  "machine": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "max_nfev": 120,
+  "numerical_thread_limits": 1,
+  "pixel_shape": [
+    30,
+    30
+  ],
+  "processor": "arm",
+  "python": "3.14.1",
+  "serial_process": true,
+  "starts": 1,
+  "timings_warm_jax_cache": true,
+  "usable_pixels": 900
+}

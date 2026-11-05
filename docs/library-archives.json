@@ -1,0 +1,42 @@
+{
+  "herculens": {
+    "version": "0.3.0",
+    "archives": [
+      {
+        "name": "herculens-0.3.0-py3-none-any.whl",
+        "bytes": 221930,
+        "sha256": "27cbc3c858887d15f099f1b3b57ef4fcf8c658ab4f646d08162ad3f300b2a169"
+      },
+      {
+        "name": "herculens-0.3.0.tar.gz",
+        "bytes": 179556,
+        "sha256": "a29350096d5ae16462308812c57b2ee487736b892819ce4a3e3b548b09335c07"
+      }
+    ]
+  },
+  "lenstronomy": {
+    "version": "1.13.2",
+    "archives": [
+      {
+        "name": "lenstronomy-1.13.2.tar.gz",
+        "bytes": 1870494,
+        "sha256": "1f12a2fb9d38fcf508568f07b043f32a55c3a2567232163b215703e190130406"
+      }
+    ]
+  },
+  "autolens": {
+    "version": "2026.10.16.1",
+    "archives": [
+      {
+        "name": "autolens-2026.10.16.1-py3-none-any.whl",
+        "bytes": 330933,
+        "sha256": "88623c45e8116296662c2ba5c234eb0e209d3f91ba98c7beded4a146b381e386"
+      },
+      {
+        "name": "autolens-2026.10.16.1.tar.gz",
+        "bytes": 7865567,
+        "sha256": "4b43e0d8fde278492c9a0b9d049d3e9f84c2a016c2f555199b79cf27856b6438"
+      }
+    ]
+  }
+}

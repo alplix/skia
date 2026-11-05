@@ -1,0 +1,135 @@
+{
+  "count": 40,
+  "fit_config": {
+    "gamma_prior_sigma": 0.1,
+    "max_nfev": 60,
+    "seed": 731,
+    "starts": 1
+  },
+  "format": "skia-b2-source-population-v2",
+  "git_revision": "5bde0f6145aaf62853e049918120db98c1f21ad4",
+  "injected_alpha_Rs_arcsec": [
+    0.01,
+    0.03,
+    0.06
+  ],
+  "injection_position_arcsec": {
+    "x": 0.3,
+    "y": 0.3
+  },
+  "lens_ranges": {
+    "center_x": [
+      -0.03,
+      0.03
+    ],
+    "center_y": [
+      -0.03,
+      0.03
+    ],
+    "e1": [
+      0.05,
+      0.2
+    ],
+    "e2": [
+      -0.08,
+      0.08
+    ],
+    "gamma": [
+      1.8,
+      2.2
+    ],
+    "gamma1": [
+      -0.03,
+      0.05
+    ],
+    "gamma2": [
+      -0.03,
+      0.05
+    ],
+    "theta_E": [
+      0.85,
+      1.15
+    ]
+  },
+  "method": "Each two-component truth has one shared-geometry two-Sersic source. Paired one/two-Sersic fits use identical null and injected images. Independent Gaussian noise uses the per-pixel expected Poisson-plus-read-noise standard deviation computed from the richer noiseless source and simulator sky/read-noise settings. Injection adds the true rendered halo model delta. False alarms are raw max data delta-chi2 thresholds, not calibrated significance.",
+  "noise_seed_base": 310000,
+  "observation": {
+    "exposure": 565.0,
+    "npix": 24,
+    "oversample": 1,
+    "pixel_scale": 0.1,
+    "psf_fwhm": 0.18,
+    "read_noise": 4.5,
+    "sky_rate": 0.1
+  },
+  "parameter_seed": 20261102,
+  "primary_source_ranges": {
+    "R_sersic": [
+      0.13,
+      0.23
+    ],
+    "amp": [
+      4,
+      18
+    ],
+    "center_x": [
+      -0.12,
+      0.12
+    ],
+    "center_y": [
+      -0.12,
+      0.12
+    ],
+    "e1": [
+      -0.12,
+      0.2
+    ],
+    "e2": [
+      -0.15,
+      0.15
+    ],
+    "n_sersic": [
+      0.8,
+      1.6
+    ]
+  },
+  "scan_grid": {
+    "Rs_arcsec": 0.2,
+    "alpha_Rs_arcsec": [
+      0.0,
+      0.01,
+      0.03,
+      0.06
+    ],
+    "profile": "TNFW",
+    "r_trunc_arcsec": 0.8,
+    "x_arcsec": [
+      -0.3,
+      0.3
+    ],
+    "y_arcsec": [
+      -0.3,
+      0.3
+    ]
+  },
+  "secondary_source": {
+    "R_sersic_arcsec": [
+      0.04,
+      0.1
+    ],
+    "amplitude_fraction_primary": [
+      0.15,
+      0.6
+    ],
+    "geometry": "shared with primary",
+    "n_sersic": [
+      0.8,
+      3.0
+    ]
+  },
+  "thresholds_delta_chi2": [
+    2.0,
+    5.0,
+    10.0
+  ]
+}

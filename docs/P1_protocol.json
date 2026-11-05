@@ -1,0 +1,118 @@
+{
+  "bench_count": 5,
+  "benchmark_seed_base": 200000,
+  "count": 200,
+  "fit_config": {
+    "max_nfev": 200,
+    "seed": 731,
+    "starts": 2
+  },
+  "format": "skia-recovery-v1",
+  "git_revision": "27f8bbb38f937356d1c6b132153fa003b9f9957f",
+  "gross_error_thresholds": {
+    "lens.gamma": 0.15,
+    "lens.theta_E": 0.03
+  },
+  "jax_backend": "cpu",
+  "lens_ranges": {
+    "center_x": [
+      -0.03,
+      0.03
+    ],
+    "center_y": [
+      -0.03,
+      0.03
+    ],
+    "e1": [
+      0.05,
+      0.2
+    ],
+    "e2": [
+      -0.08,
+      0.08
+    ],
+    "gamma": [
+      1.8,
+      2.2
+    ],
+    "gamma1": [
+      -0.03,
+      0.05
+    ],
+    "gamma2": [
+      -0.03,
+      0.05
+    ],
+    "theta_E": [
+      0.85,
+      1.15
+    ]
+  },
+  "machine": "arm64",
+  "noise_seed_base": 100000,
+  "observation": {
+    "exposure": 565.0,
+    "npix": 40,
+    "oversample": 2,
+    "pixel_scale": 0.1,
+    "psf_fwhm": 0.18,
+    "read_noise": 4.5,
+    "sky_rate": 0.1
+  },
+  "os": "Darwin",
+  "packages": {
+    "herculens": "0.3.0",
+    "jax": "0.12.0.1",
+    "jaxlib": "0.12.0.1",
+    "lenstronomy": "1.13.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "parameter_seed": 20261031,
+  "python": "3.14.1",
+  "source_ranges": {
+    "R_sersic": [
+      0.13,
+      0.23
+    ],
+    "amp": [
+      4,
+      18
+    ],
+    "center_x": [
+      -0.12,
+      0.12
+    ],
+    "center_y": [
+      -0.12,
+      0.12
+    ],
+    "e1": [
+      -0.12,
+      0.2
+    ],
+    "e2": [
+      -0.15,
+      0.15
+    ],
+    "n_sersic": [
+      0.8,
+      1.6
+    ]
+  },
+  "source_sha256": {
+    "src/skia/__init__.py": "0c017dff74ad05eb50fb4c4427173abcf86fbe1daba52d7c56e888524377c21a",
+    "src/skia/cli.py": "f1e400c7cfa3bd4c4070019f7263a8cd3f2c0260aef8be89dfba51cb6bdbe236",
+    "src/skia/cutout.py": "24cab231b840da063f6ac5af4eda567d0c9eb22affdbea9117a9e5b3b6bfbcb7",
+    "src/skia/fitter.py": "b9a110f2e318c65ff9a78d853c73f6f79431454d727da491bb6a20fe8347bd5e",
+    "src/skia/simulator.py": "7fe105f02ece0a3361f6079af761706563a20a3921c5a1b2abf6e9bfc49923d6",
+    "tests/bench/recovery.py": "2f7f8cd3e034ebb750da955729b862368bb6a0691273af42419821dbefebbbc8"
+  },
+  "threads": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "XLA_FLAGS": null
+  }
+}

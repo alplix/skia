@@ -1,0 +1,25 @@
+{
+  "count": 5,
+  "metrics": {
+    "deflection_max_abs_arcsec": {
+      "max": 1.5543122344752192e-15,
+      "median": 1.5543122344752192e-15
+    },
+    "deflection_rms_arcsec": {
+      "max": 3.234990401011453e-16,
+      "median": 2.4502971763369335e-16
+    },
+    "noiseless_image_max_fraction_of_peak": {
+      "max": 3.86293404450308e-15,
+      "median": 1.3262607357033025e-15
+    },
+    "noiseless_image_relative_rms": {
+      "max": 1.7958920878338306e-15,
+      "median": 9.183069270496408e-16
+    },
+    "source_brightness_relative_rms": {
+      "max": 1.3781164499645532e-16,
+      "median": 1.3056464407154614e-16
+    }
+  }
+}

@@ -1,0 +1,1535 @@
+{
+  "all_finite": {
+    "calibration_rows": 100,
+    "evaluation_rows": 100,
+    "parameters": {
+      "lens.center_x": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.2053705129902483,
+        "calibration_scale_95": 1.5335297802345011,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.65,
+          "inside": 65,
+          "wilson_95": [
+            0.5525444329688796,
+            0.7363575175690247
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.86,
+          "inside": 86,
+          "wilson_95": [
+            0.7786281178903616,
+            0.9147365634006086
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.71,
+          "inside": 71,
+          "wilson_95": [
+            0.6146110882442888,
+            0.7898516425087772
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.93,
+          "inside": 93,
+          "wilson_95": [
+            0.8625048526092651,
+            0.9656807389327273
+          ]
+        }
+      },
+      "lens.center_y": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.027983748453672,
+        "calibration_scale_95": 1.086501529912832,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.66,
+          "inside": 66,
+          "wilson_95": [
+            0.5627772885472462,
+            0.7453847920265184
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.86,
+          "inside": 86,
+          "wilson_95": [
+            0.7786281178903616,
+            0.9147365634006086
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.67,
+          "inside": 67,
+          "wilson_95": [
+            0.5730534379509052,
+            0.7543687726587197
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.9,
+          "inside": 90,
+          "wilson_95": [
+            0.8256343384950865,
+            0.9447708629393249
+          ]
+        }
+      },
+      "lens.e1": {
+        "calibration_available": 100,
+        "calibration_scale_68": 0.9314677836300399,
+        "calibration_scale_95": 1.2789756447163076,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.65,
+          "inside": 65,
+          "wilson_95": [
+            0.5525444329688796,
+            0.7363575175690247
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.9,
+          "inside": 90,
+          "wilson_95": [
+            0.8256343384950865,
+            0.9447708629393249
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.61,
+          "inside": 61,
+          "wilson_95": [
+            0.5120301704584073,
+            0.6998312599360558
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "lens.e2": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.0038733969979672,
+        "calibration_scale_95": 1.3613524774131536,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.61,
+          "inside": 61,
+          "wilson_95": [
+            0.5120301704584073,
+            0.6998312599360558
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.92,
+          "inside": 92,
+          "wilson_95": [
+            0.8500189229905127,
+            0.9589065385156194
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.61,
+          "inside": 61,
+          "wilson_95": [
+            0.5120301704584073,
+            0.6998312599360558
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "lens.gamma": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.045843598391743,
+        "calibration_scale_95": 1.1566039247450253,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.63,
+          "inside": 63,
+          "wilson_95": [
+            0.5322052958094291,
+            0.7181763946567546
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.93,
+          "inside": 93,
+          "wilson_95": [
+            0.8625048526092651,
+            0.9656807389327273
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.69,
+          "inside": 69,
+          "wilson_95": [
+            0.5937394428051057,
+            0.7722030278762395
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "lens.gamma1": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.1433991812770004,
+        "calibration_scale_95": 1.3125609385824686,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.69,
+          "inside": 69,
+          "wilson_95": [
+            0.5937394428051057,
+            0.7722030278762395
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.91,
+          "inside": 91,
+          "wilson_95": [
+            0.837737871472837,
+            0.9519274599974348
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.77,
+          "inside": 77,
+          "wilson_95": [
+            0.6784561697712622,
+            0.8415673411969654
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "lens.gamma2": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.12272566312818,
+        "calibration_scale_95": 1.4389821793496003,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.66,
+          "inside": 66,
+          "wilson_95": [
+            0.5627772885472462,
+            0.7453847920265184
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.87,
+          "inside": 87,
+          "wilson_95": [
+            0.7901964855992357,
+            0.9224283257275948
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.7,
+          "inside": 70,
+          "wilson_95": [
+            0.6041514536665332,
+            0.7810511470506724
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "lens.theta_E": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.2567149886497848,
+        "calibration_scale_95": 1.054271745516017,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.7,
+          "inside": 70,
+          "wilson_95": [
+            0.6041514536665332,
+            0.7810511470506724
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.9,
+          "inside": 90,
+          "wilson_95": [
+            0.8256343384950865,
+            0.9447708629393249
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.78,
+          "inside": 78,
+          "wilson_95": [
+            0.6892964648501421,
+            0.8499871761539459
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.91,
+          "inside": 91,
+          "wilson_95": [
+            0.837737871472837,
+            0.9519274599974348
+          ]
+        }
+      },
+      "source.R_sersic": {
+        "calibration_available": 100,
+        "calibration_scale_68": 0.5414672938711452,
+        "calibration_scale_95": 0.8823837551292109,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.84,
+          "inside": 84,
+          "wilson_95": [
+            0.7557973061072976,
+            0.8990471151119521
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.97,
+          "inside": 97,
+          "wilson_95": [
+            0.9154806357094724,
+            0.9897454759759611
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.56,
+          "inside": 56,
+          "wilson_95": [
+            0.4622810465167699,
+            0.6532797336983921
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.96,
+          "inside": 96,
+          "wilson_95": [
+            0.9016292856411208,
+            0.9843366960084523
+          ]
+        }
+      },
+      "source.amp": {
+        "calibration_available": 100,
+        "calibration_scale_68": 0.9467460159106493,
+        "calibration_scale_95": 1.4763928930327994,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.74,
+          "inside": 74,
+          "wilson_95": [
+            0.6462901055081282,
+            0.8159530153525186
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.92,
+          "inside": 92,
+          "wilson_95": [
+            0.8500189229905127,
+            0.9589065385156194
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.73,
+          "inside": 73,
+          "wilson_95": [
+            0.6356788323205499,
+            0.8073041585042365
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.96,
+          "inside": 96,
+          "wilson_95": [
+            0.9016292856411208,
+            0.9843366960084523
+          ]
+        }
+      },
+      "source.center_x": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.2294249008610059,
+        "calibration_scale_95": 1.0668990935221654,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.65,
+          "inside": 65,
+          "wilson_95": [
+            0.5525444329688796,
+            0.7363575175690247
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.93,
+          "inside": 93,
+          "wilson_95": [
+            0.8625048526092651,
+            0.9656807389327273
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.8,
+          "inside": 80,
+          "wilson_95": [
+            0.7111708344068411,
+            0.8666330666689676
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "source.center_y": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.1005243119229624,
+        "calibration_scale_95": 1.0025408681400867,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.66,
+          "inside": 66,
+          "wilson_95": [
+            0.5627772885472462,
+            0.7453847920265184
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.98,
+          "inside": 98,
+          "wilson_95": [
+            0.929988209271456,
+            0.9944980324498376
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.73,
+          "inside": 73,
+          "wilson_95": [
+            0.6356788323205499,
+            0.8073041585042365
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.98,
+          "inside": 98,
+          "wilson_95": [
+            0.929988209271456,
+            0.9944980324498376
+          ]
+        }
+      },
+      "source.e1": {
+        "calibration_available": 100,
+        "calibration_scale_68": 0.9726846898245427,
+        "calibration_scale_95": 1.170214719804999,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.62,
+          "inside": 62,
+          "wilson_95": [
+            0.5220975529551107,
+            0.7090240074752127
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.9,
+          "inside": 90,
+          "wilson_95": [
+            0.8256343384950865,
+            0.9447708629393249
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.61,
+          "inside": 61,
+          "wilson_95": [
+            0.5120301704584073,
+            0.6998312599360558
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "source.e2": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.1872904120364494,
+        "calibration_scale_95": 0.9861016435222631,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.68,
+          "inside": 68,
+          "wilson_95": [
+            0.5833738138954762,
+            0.7633085267500092
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.91,
+          "inside": 91,
+          "wilson_95": [
+            0.837737871472837,
+            0.9519274599974348
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.75,
+          "inside": 75,
+          "wilson_95": [
+            0.656955364519384,
+            0.8245478863771232
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.9,
+          "inside": 90,
+          "wilson_95": [
+            0.8256343384950865,
+            0.9447708629393249
+          ]
+        }
+      },
+      "source.n_sersic": {
+        "calibration_available": 100,
+        "calibration_scale_68": 0.6748454608883884,
+        "calibration_scale_95": 0.7005496553689866,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.8,
+          "inside": 80,
+          "wilson_95": [
+            0.7111708344068411,
+            0.8666330666689676
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.98,
+          "inside": 98,
+          "wilson_95": [
+            0.929988209271456,
+            0.9944980324498376
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.68,
+          "inside": 68,
+          "wilson_95": [
+            0.5833738138954762,
+            0.7633085267500092
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.91,
+          "inside": 91,
+          "wilson_95": [
+            0.837737871472837,
+            0.9519274599974348
+          ]
+        }
+      },
+      "source2.R_sersic": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.4608970817030933,
+        "calibration_scale_95": 2.360575908633222,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.64,
+          "inside": 64,
+          "wilson_95": [
+            0.5423540245160874,
+            0.7272877959859567
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.79,
+          "inside": 79,
+          "wilson_95": [
+            0.7002003116591013,
+            0.858343459380847
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.72,
+          "inside": 72,
+          "wilson_95": [
+            0.6251197129007884,
+            0.7986031478881379
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.94,
+          "inside": 94,
+          "wilson_95": [
+            0.8752318455410406,
+            0.9722138760368118
+          ]
+        }
+      },
+      "source2.amp": {
+        "calibration_available": 100,
+        "calibration_scale_68": 0.8007989290518326,
+        "calibration_scale_95": 1.6301813107779404,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.73,
+          "inside": 73,
+          "wilson_95": [
+            0.6356788323205499,
+            0.8073041585042365
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.87,
+          "inside": 87,
+          "wilson_95": [
+            0.7901964855992357,
+            0.9224283257275948
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.68,
+          "inside": 68,
+          "wilson_95": [
+            0.5833738138954762,
+            0.7633085267500092
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.97,
+          "inside": 97,
+          "wilson_95": [
+            0.9154806357094724,
+            0.9897454759759611
+          ]
+        }
+      },
+      "source2.n_sersic": {
+        "calibration_available": 100,
+        "calibration_scale_68": 1.1073765276673566,
+        "calibration_scale_95": 1.8752461265723381,
+        "evaluation_available": 100,
+        "raw_evaluation_68": {
+          "count": 100,
+          "fraction": 0.7,
+          "inside": 70,
+          "wilson_95": [
+            0.6041514536665332,
+            0.7810511470506724
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 100,
+          "fraction": 0.84,
+          "inside": 84,
+          "wilson_95": [
+            0.7557973061072976,
+            0.8990471151119521
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 100,
+          "fraction": 0.72,
+          "inside": 72,
+          "wilson_95": [
+            0.6251197129007884,
+            0.7986031478881379
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 100,
+          "fraction": 0.97,
+          "inside": 97,
+          "wilson_95": [
+            0.9154806357094724,
+            0.9897454759759611
+          ]
+        }
+      }
+    },
+    "rows": 200
+  },
+  "attempted": 200,
+  "boundary_contacts": 137,
+  "converged_interior": {
+    "calibration_rows": 27,
+    "evaluation_rows": 31,
+    "parameters": {
+      "lens.center_x": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.9787179843675357,
+        "calibration_scale_95": 1.165595553013645,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7419354838709677,
+          "inside": 23,
+          "wilson_95": [
+            0.5675386419056621,
+            0.8629829409360625
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.8709677419354839,
+          "inside": 27,
+          "wilson_95": [
+            0.7114759374369357,
+            0.9486571562537085
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7419354838709677,
+          "inside": 23,
+          "wilson_95": [
+            0.5675386419056621,
+            0.8629829409360625
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        }
+      },
+      "lens.center_y": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.7714290644120654,
+        "calibration_scale_95": 0.9886470309073789,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.6451612903225806,
+          "inside": 20,
+          "wilson_95": [
+            0.46947954064368874,
+            0.788833409061346
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9032258064516129,
+          "inside": 28,
+          "wilson_95": [
+            0.7510006155660716,
+            0.9665353558368026
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.5806451612903226,
+          "inside": 18,
+          "wilson_95": [
+            0.4076626249536972,
+            0.7358445693268778
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9032258064516129,
+          "inside": 28,
+          "wilson_95": [
+            0.7510006155660716,
+            0.9665353558368026
+          ]
+        }
+      },
+      "lens.e1": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.195663913880201,
+        "calibration_scale_95": 1.2704997132052245,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8387096774193549,
+          "inside": 26,
+          "wilson_95": [
+            0.6736564604120674,
+            0.9290737555663471
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9354838709677419,
+          "inside": 29,
+          "wilson_95": [
+            0.7928136326370188,
+            0.9821252164780854
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8387096774193549,
+          "inside": 26,
+          "wilson_95": [
+            0.6736564604120674,
+            0.9290737555663471
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        }
+      },
+      "lens.e2": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.159424541961453,
+        "calibration_scale_95": 1.1203348563660542,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7096774193548387,
+          "inside": 22,
+          "wilson_95": [
+            0.5340767066925007,
+            0.8390419984369939
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        }
+      },
+      "lens.gamma": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.0992042547101177,
+        "calibration_scale_95": 1.0377201474011863,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7741935483870968,
+          "inside": 24,
+          "wilson_95": [
+            0.6018758161665794,
+            0.886048644387375
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.9032258064516129,
+          "inside": 28,
+          "wilson_95": [
+            0.7510006155660716,
+            0.9665353558368026
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        }
+      },
+      "lens.gamma1": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.1194978028178832,
+        "calibration_scale_95": 0.9411523763127646,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8387096774193549,
+          "inside": 26,
+          "wilson_95": [
+            0.6736564604120674,
+            0.9290737555663471
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.9032258064516129,
+          "inside": 28,
+          "wilson_95": [
+            0.7510006155660716,
+            0.9665353558368026
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        }
+      },
+      "lens.gamma2": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.9941155901454686,
+        "calibration_scale_95": 0.9277574627321689,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        }
+      },
+      "lens.theta_E": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.7438084552342307,
+        "calibration_scale_95": 0.8370140083898299,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7419354838709677,
+          "inside": 23,
+          "wilson_95": [
+            0.5675386419056621,
+            0.8629829409360625
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.45161290322580644,
+          "inside": 14,
+          "wilson_95": [
+            0.29161735980520015,
+            0.6222783236264549
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9032258064516129,
+          "inside": 28,
+          "wilson_95": [
+            0.7510006155660716,
+            0.9665353558368026
+          ]
+        }
+      },
+      "source.R_sersic": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.5196358491416042,
+        "calibration_scale_95": 0.9998181613050015,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8387096774193549,
+          "inside": 26,
+          "wilson_95": [
+            0.6736564604120674,
+            0.9290737555663471
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.5483870967741935,
+          "inside": 17,
+          "wilson_95": [
+            0.37772167637354503,
+            0.7083826401947998
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        }
+      },
+      "source.amp": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.7941047233714054,
+        "calibration_scale_95": 1.4763928930327994,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9354838709677419,
+          "inside": 29,
+          "wilson_95": [
+            0.7928136326370188,
+            0.9821252164780854
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7741935483870968,
+          "inside": 24,
+          "wilson_95": [
+            0.6018758161665794,
+            0.886048644387375
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9354838709677419,
+          "inside": 29,
+          "wilson_95": [
+            0.7928136326370188,
+            0.9821252164780854
+          ]
+        }
+      },
+      "source.center_x": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.3239609685171387,
+        "calibration_scale_95": 1.0313410410938828,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8709677419354839,
+          "inside": 27,
+          "wilson_95": [
+            0.7114759374369357,
+            0.9486571562537085
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        }
+      },
+      "source.center_y": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.087274219364959,
+        "calibration_scale_95": 0.8617069658519853,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7096774193548387,
+          "inside": 22,
+          "wilson_95": [
+            0.5340767066925007,
+            0.8390419984369939
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8709677419354839,
+          "inside": 27,
+          "wilson_95": [
+            0.7114759374369357,
+            0.9486571562537085
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        }
+      },
+      "source.e1": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.8231476697702039,
+        "calibration_scale_95": 0.7855318481771111,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7096774193548387,
+          "inside": 22,
+          "wilson_95": [
+            0.5340767066925007,
+            0.8390419984369939
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9354838709677419,
+          "inside": 29,
+          "wilson_95": [
+            0.7928136326370188,
+            0.9821252164780854
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.6774193548387096,
+          "inside": 21,
+          "wilson_95": [
+            0.5014100930808565,
+            0.8143057343364082
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        }
+      },
+      "source.e2": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.1872904120364494,
+        "calibration_scale_95": 1.1720292694609948,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.6451612903225806,
+          "inside": 20,
+          "wilson_95": [
+            0.46947954064368874,
+            0.788833409061346
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9032258064516129,
+          "inside": 28,
+          "wilson_95": [
+            0.7510006155660716,
+            0.9665353558368026
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.6774193548387096,
+          "inside": 21,
+          "wilson_95": [
+            0.5014100930808565,
+            0.8143057343364082
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.967741935483871,
+          "inside": 30,
+          "wilson_95": [
+            0.838058948352751,
+            0.9942827784745831
+          ]
+        }
+      },
+      "source.n_sersic": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.7947577000146062,
+        "calibration_scale_95": 0.5616884039595379,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        }
+      },
+      "source2.R_sersic": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.929069463846151,
+        "calibration_scale_95": 2.15682900408688,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.6774193548387096,
+          "inside": 21,
+          "wilson_95": [
+            0.5014100930808565,
+            0.8143057343364082
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.8064516129032258,
+          "inside": 25,
+          "wilson_95": [
+            0.6371974218820453,
+            0.908129916384139
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.6451612903225806,
+          "inside": 20,
+          "wilson_95": [
+            0.46947954064368874,
+            0.788833409061346
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9354838709677419,
+          "inside": 29,
+          "wilson_95": [
+            0.7928136326370188,
+            0.9821252164780854
+          ]
+        }
+      },
+      "source2.amp": {
+        "calibration_available": 27,
+        "calibration_scale_68": 0.9700894808301426,
+        "calibration_scale_95": 1.7209082118016503,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8387096774193549,
+          "inside": 26,
+          "wilson_95": [
+            0.6736564604120674,
+            0.9290737555663471
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9354838709677419,
+          "inside": 29,
+          "wilson_95": [
+            0.7928136326370188,
+            0.9821252164780854
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.8387096774193549,
+          "inside": 26,
+          "wilson_95": [
+            0.6736564604120674,
+            0.9290737555663471
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 1.0,
+          "inside": 31,
+          "wilson_95": [
+            0.889744604539564,
+            1.0
+          ]
+        }
+      },
+      "source2.n_sersic": {
+        "calibration_available": 27,
+        "calibration_scale_68": 1.229170872125264,
+        "calibration_scale_95": 1.2758253152664267,
+        "evaluation_available": 31,
+        "raw_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7741935483870968,
+          "inside": 24,
+          "wilson_95": [
+            0.6018758161665794,
+            0.886048644387375
+          ]
+        },
+        "raw_evaluation_95": {
+          "count": 31,
+          "fraction": 0.8709677419354839,
+          "inside": 27,
+          "wilson_95": [
+            0.7114759374369357,
+            0.9486571562537085
+          ]
+        },
+        "scaled_evaluation_68": {
+          "count": 31,
+          "fraction": 0.7741935483870968,
+          "inside": 24,
+          "wilson_95": [
+            0.6018758161665794,
+            0.886048644387375
+          ]
+        },
+        "scaled_evaluation_95": {
+          "count": 31,
+          "fraction": 0.9032258064516129,
+          "inside": 28,
+          "wilson_95": [
+            0.7510006155660716,
+            0.9665353558368026
+          ]
+        }
+      }
+    },
+    "rows": 58
+  },
+  "finite": 200,
+  "hard_failures": 0,
+  "rank_deficient": 0,
+  "split": "even index for calibration, odd index for held-out evaluation",
+  "unconverged_finite": 7
+}

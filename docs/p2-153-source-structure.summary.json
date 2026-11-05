@@ -1,0 +1,41 @@
+{
+  "format": "skia-q1-source-structure-v1",
+  "hard_errors": 0,
+  "metrics": {
+    "source_complexity_delta_chi2": {
+      "median": 7533.218670368195,
+      "n_positive": 144,
+      "p16": 687.3469452908449,
+      "p84": 55023.901520464235
+    },
+    "source_complexity_delta_minus_tnfw_delta_chi2": {
+      "median": 809.6887348470336,
+      "n_positive": 93,
+      "p16": -18623.05661359538,
+      "p84": 26549.289588380405
+    },
+    "source_complexity_percent_of_one_sersic_chi2": {
+      "median": 3.924892850760844,
+      "n_positive": 144,
+      "p16": 0.11032111478514144,
+      "p84": 23.15682962166113
+    },
+    "tnfw_delta_chi2": {
+      "median": 5841.465779029415,
+      "n_positive": 133,
+      "p16": 61.53867075799734,
+      "p84": 57977.71210998137
+    },
+    "tnfw_percent_of_one_sersic_chi2": {
+      "median": 2.7914839895049877,
+      "n_positive": 133,
+      "p16": 0.0022840142352116588,
+      "p84": 16.79219987797799
+    }
+  },
+  "n_comparisons": 153,
+  "n_cutouts": 153,
+  "source_complexity_gain_larger_count": 93,
+  "two_sersic_bound_contact_count": 68,
+  "two_sersic_converged": 88
+}

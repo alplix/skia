@@ -1,0 +1,290 @@
+{
+  "1": {
+    "count": 40,
+    "grid_points_per_scan": 16,
+    "injections_by_alpha_Rs_arcsec": {
+      "0.01": {
+        "fit_converged": 37,
+        "grid_converged": 602,
+        "grid_points": 640,
+        "paired_at_threshold_2": {
+          "recovered_in_1_only": 3,
+          "recovered_in_2_only": 2
+        },
+        "thresholds": {
+          "10.0": {
+            "recoveries": 3,
+            "recovery_fraction": 0.075,
+            "recovery_wilson_95": [
+              0.025836025774588198,
+              0.19864233524310543
+            ]
+          },
+          "2.0": {
+            "recoveries": 15,
+            "recovery_fraction": 0.375,
+            "recovery_wilson_95": [
+              0.24222979167233266,
+              0.5296756086269889
+            ]
+          },
+          "5.0": {
+            "recoveries": 6,
+            "recovery_fraction": 0.15,
+            "recovery_wilson_95": [
+              0.07061187717320358,
+              0.2907232436648971
+            ]
+          }
+        }
+      },
+      "0.03": {
+        "fit_converged": 38,
+        "grid_converged": 606,
+        "grid_points": 640,
+        "paired_at_threshold_2": {
+          "recovered_in_1_only": 4,
+          "recovered_in_2_only": 1
+        },
+        "thresholds": {
+          "10.0": {
+            "recoveries": 4,
+            "recovery_fraction": 0.1,
+            "recovery_wilson_95": [
+              0.03957952868260638,
+              0.23051775227522298
+            ]
+          },
+          "2.0": {
+            "recoveries": 22,
+            "recovery_fraction": 0.55,
+            "recovery_wilson_95": [
+              0.39829091798932054,
+              0.6929469218909508
+            ]
+          },
+          "5.0": {
+            "recoveries": 9,
+            "recovery_fraction": 0.225,
+            "recovery_wilson_95": [
+              0.12316091323540743,
+              0.37503096742310027
+            ]
+          }
+        }
+      },
+      "0.06": {
+        "fit_converged": 40,
+        "grid_converged": 637,
+        "grid_points": 640,
+        "paired_at_threshold_2": {
+          "recovered_in_1_only": 3,
+          "recovered_in_2_only": 1
+        },
+        "thresholds": {
+          "10.0": {
+            "recoveries": 10,
+            "recovery_fraction": 0.25,
+            "recovery_wilson_95": [
+              0.14187118639096302,
+              0.40193961420768026
+            ]
+          },
+          "2.0": {
+            "recoveries": 26,
+            "recovery_fraction": 0.65,
+            "recovery_wilson_95": [
+              0.49505880837257693,
+              0.7786547112682372
+            ]
+          },
+          "5.0": {
+            "recoveries": 17,
+            "recovery_fraction": 0.425,
+            "recovery_wilson_95": [
+              0.28509392559950375,
+              0.5780493145800892
+            ]
+          }
+        }
+      }
+    },
+    "null_fit_converged": 39,
+    "null_grid_converged": 622,
+    "null_median_chi2_per_dof": 1.0069577505208778,
+    "paired_at_threshold_2": {
+      "null_triggered_in_1_only": 3,
+      "null_triggered_in_2_only": 2
+    },
+    "thresholds": {
+      "10.0": {
+        "false_alarm_fraction": 0.05,
+        "false_alarm_wilson_95": [
+          0.013820667386148344,
+          0.16503877369140962
+        ],
+        "false_alarms": 2
+      },
+      "2.0": {
+        "false_alarm_fraction": 0.275,
+        "false_alarm_wilson_95": [
+          0.16108016247667337,
+          0.42834955806210573
+        ],
+        "false_alarms": 11
+      },
+      "5.0": {
+        "false_alarm_fraction": 0.15,
+        "false_alarm_wilson_95": [
+          0.07061187717320358,
+          0.2907232436648971
+        ],
+        "false_alarms": 6
+      }
+    }
+  },
+  "2": {
+    "count": 40,
+    "grid_points_per_scan": 16,
+    "injections_by_alpha_Rs_arcsec": {
+      "0.01": {
+        "fit_converged": 32,
+        "grid_converged": 603,
+        "grid_points": 640,
+        "paired_at_threshold_2": {
+          "recovered_in_1_only": 3,
+          "recovered_in_2_only": 2
+        },
+        "thresholds": {
+          "10.0": {
+            "recoveries": 2,
+            "recovery_fraction": 0.05,
+            "recovery_wilson_95": [
+              0.013820667386148344,
+              0.16503877369140962
+            ]
+          },
+          "2.0": {
+            "recoveries": 14,
+            "recovery_fraction": 0.35,
+            "recovery_wilson_95": [
+              0.2213452887317629,
+              0.5049411916274231
+            ]
+          },
+          "5.0": {
+            "recoveries": 3,
+            "recovery_fraction": 0.075,
+            "recovery_wilson_95": [
+              0.025836025774588198,
+              0.19864233524310543
+            ]
+          }
+        }
+      },
+      "0.03": {
+        "fit_converged": 34,
+        "grid_converged": 607,
+        "grid_points": 640,
+        "paired_at_threshold_2": {
+          "recovered_in_1_only": 4,
+          "recovered_in_2_only": 1
+        },
+        "thresholds": {
+          "10.0": {
+            "recoveries": 2,
+            "recovery_fraction": 0.05,
+            "recovery_wilson_95": [
+              0.013820667386148344,
+              0.16503877369140962
+            ]
+          },
+          "2.0": {
+            "recoveries": 19,
+            "recovery_fraction": 0.475,
+            "recovery_wilson_95": [
+              0.329354701126789,
+              0.6250263789330753
+            ]
+          },
+          "5.0": {
+            "recoveries": 6,
+            "recovery_fraction": 0.15,
+            "recovery_wilson_95": [
+              0.07061187717320358,
+              0.2907232436648971
+            ]
+          }
+        }
+      },
+      "0.06": {
+        "fit_converged": 37,
+        "grid_converged": 628,
+        "grid_points": 640,
+        "paired_at_threshold_2": {
+          "recovered_in_1_only": 3,
+          "recovered_in_2_only": 1
+        },
+        "thresholds": {
+          "10.0": {
+            "recoveries": 8,
+            "recovery_fraction": 0.2,
+            "recovery_wilson_95": [
+              0.10499989725437704,
+              0.347573063463995
+            ]
+          },
+          "2.0": {
+            "recoveries": 24,
+            "recovery_fraction": 0.6,
+            "recovery_wilson_95": [
+              0.44595893660346186,
+              0.7365167431570808
+            ]
+          },
+          "5.0": {
+            "recoveries": 13,
+            "recovery_fraction": 0.325,
+            "recovery_wilson_95": [
+              0.200845022317827,
+              0.47982253810122333
+            ]
+          }
+        }
+      }
+    },
+    "null_fit_converged": 35,
+    "null_grid_converged": 613,
+    "null_median_chi2_per_dof": 1.006704738411504,
+    "paired_at_threshold_2": {
+      "null_triggered_in_1_only": 3,
+      "null_triggered_in_2_only": 2
+    },
+    "thresholds": {
+      "10.0": {
+        "false_alarm_fraction": 0.05,
+        "false_alarm_wilson_95": [
+          0.013820667386148344,
+          0.16503877369140962
+        ],
+        "false_alarms": 2
+      },
+      "2.0": {
+        "false_alarm_fraction": 0.25,
+        "false_alarm_wilson_95": [
+          0.14187118639096302,
+          0.40193961420768026
+        ],
+        "false_alarms": 10
+      },
+      "5.0": {
+        "false_alarm_fraction": 0.125,
+        "false_alarm_wilson_95": [
+          0.05459500250945401,
+          0.261121198388511
+        ],
+        "false_alarms": 5
+      }
+    }
+  }
+}

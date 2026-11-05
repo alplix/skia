@@ -1,0 +1,17 @@
+<job_desc>
+  <task>
+    <application>/bin/tar</application>
+    <command_line>-xzf skia_app.tar.gz</command_line>
+    <weight>1</weight>
+  </task>
+  <task>
+    <application>skia_app/skia_app</application>
+    <command_line>task.zip -o result.txt</command_line>
+    <setenv>OMP_NUM_THREADS=1</setenv>
+    <setenv>OPENBLAS_NUM_THREADS=1</setenv>
+    <setenv>MKL_NUM_THREADS=1</setenv>
+    <setenv>XLA_FLAGS=--xla_cpu_multi_thread_eigen=false intra_op_parallelism_threads=1</setenv>
+    <stderr_filename>skia_stderr.txt</stderr_filename>
+    <weight>20</weight>
+  </task>
+</job_desc>

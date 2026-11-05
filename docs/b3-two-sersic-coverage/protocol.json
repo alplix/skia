@@ -1,0 +1,109 @@
+{
+  "calibration_quantiles": {
+    "68_percent": 0.6827,
+    "95_percent": 0.95,
+    "method": "higher"
+  },
+  "count": 200,
+  "fit_config": {
+    "gamma_prior_sigma": null,
+    "max_nfev": 200,
+    "seed": 731,
+    "source_components": 2,
+    "starts": 2
+  },
+  "format": "skia-two-sersic-coverage-v1",
+  "git_revision": "de7ebdb6a58aa46789bcd34998a1e88c254164ff",
+  "lens_ranges": {
+    "center_x": [
+      -0.03,
+      0.03
+    ],
+    "center_y": [
+      -0.03,
+      0.03
+    ],
+    "e1": [
+      0.05,
+      0.2
+    ],
+    "e2": [
+      -0.08,
+      0.08
+    ],
+    "gamma": [
+      1.8,
+      2.2
+    ],
+    "gamma1": [
+      -0.03,
+      0.05
+    ],
+    "gamma2": [
+      -0.03,
+      0.05
+    ],
+    "theta_E": [
+      0.85,
+      1.15
+    ]
+  },
+  "noise": "independent Gaussian with known per-pixel standard deviation sqrt(expected source + sky + read_noise^2)",
+  "noise_seed_base": 620000,
+  "nominal_intervals": "reported local Jacobian errors; calibration multipliers estimated on even indices and evaluated on odd indices",
+  "observation": {
+    "exposure": 565.0,
+    "npix": 40,
+    "oversample": 2,
+    "pixel_scale": 0.1,
+    "psf_fwhm": 0.18,
+    "read_noise": 4.5,
+    "sky_rate": 0.1
+  },
+  "parameter_seed": 20261103,
+  "primary_source_ranges": {
+    "R_sersic": [
+      0.13,
+      0.23
+    ],
+    "amp": [
+      4,
+      18
+    ],
+    "center_x": [
+      -0.12,
+      0.12
+    ],
+    "center_y": [
+      -0.12,
+      0.12
+    ],
+    "e1": [
+      -0.12,
+      0.2
+    ],
+    "e2": [
+      -0.15,
+      0.15
+    ],
+    "n_sersic": [
+      0.8,
+      1.6
+    ]
+  },
+  "secondary_source": {
+    "R_sersic_arcsec": [
+      0.04,
+      0.1
+    ],
+    "amplitude_fraction_primary": [
+      0.15,
+      0.6
+    ],
+    "geometry": "shared with primary",
+    "n_sersic": [
+      0.8,
+      3.0
+    ]
+  }
+}

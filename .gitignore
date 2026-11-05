@@ -1,0 +1,24 @@
+data/
+__pycache__/
+*.pyc
+.venv/
+*.npz
+*.fits
+*.log
+.DS_Store
+work/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+boinc/skia_wrapper
+
+# internal working notes (kept locally, not published)
+AGENTS.md
+PLAN.md
+STATUS.md
+TASKS.md
+REQUESTS.md
+handoff/
+reviews/

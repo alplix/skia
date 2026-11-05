@@ -1,0 +1,524 @@
+{
+  "fit_comparison": [
+    "one Sersic",
+    "two Sersic components sharing ellipticity and center"
+  ],
+  "fit_config": {
+    "gamma_prior_sigma": 0.1,
+    "max_nfev": 40,
+    "seed": 731,
+    "source_components": "1 or 2",
+    "starts": 1
+  },
+  "format": "skia-b2-source-complexity-v1",
+  "grid": {
+    "Rs_arcsec": 0.2,
+    "alpha_Rs_arcsec": [
+      0.0,
+      0.03
+    ],
+    "profile": "TNFW",
+    "r_trunc_arcsec": 0.8,
+    "x_arcsec": [
+      -0.3,
+      0.3
+    ],
+    "y_arcsec": [
+      -0.3,
+      0.3
+    ]
+  },
+  "injected_alpha_Rs_arcsec": 0.03,
+  "limits": [
+    "Small controlled simulated population; not Q1 false-positive calibration.",
+    "Noise is seeded independent Gaussian using the simulator single-source noise map.",
+    "Shared-center/shared-ellipticity two-Sersic family cannot represent arbitrary source structure.",
+    "alpha_Rs is angular lensing strength, not subhalo mass."
+  ],
+  "rows": [
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.6959005228760589
+          },
+          "injection_chi2_per_dof": 1.0609841215425937,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 4.248344816053759
+          },
+          "null_chi2_per_dof": 1.0441705046865672,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.7820375445924128
+          },
+          "injection_chi2_per_dof": 1.0434832790417845,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 2.573731605412263
+          },
+          "null_chi2_per_dof": 1.0341197592295026,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73000
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.5150952098476864
+          },
+          "injection_chi2_per_dof": 0.9565525559731993,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.5569564001197023
+          },
+          "null_chi2_per_dof": 0.9587548929358015,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.6245865117680296
+          },
+          "injection_chi2_per_dof": 0.9485279062305562,
+          "injection_fit_converged": false,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.739169192356485
+          },
+          "null_chi2_per_dof": 0.9448976876731052,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73001
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.8326253469322182
+          },
+          "injection_chi2_per_dof": 0.9930792265932308,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 0,
+            "grid_points": 8,
+            "max_delta_chi2": 2.0578433738949116
+          },
+          "null_chi2_per_dof": 0.9936075847819995,
+          "null_fit_converged": false
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.6549872001930908
+          },
+          "injection_chi2_per_dof": 0.9856915041748188,
+          "injection_fit_converged": false,
+          "null": {
+            "converged_points": 7,
+            "grid_points": 8,
+            "max_delta_chi2": 2.7079182800655417
+          },
+          "null_chi2_per_dof": 0.986252800950372,
+          "null_fit_converged": false
+        }
+      },
+      "seed": 73002
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 3.759959903544541
+          },
+          "injection_chi2_per_dof": 0.957928144650496,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.1602089159242723
+          },
+          "null_chi2_per_dof": 0.9436238421925219,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 3.445370781601696
+          },
+          "injection_chi2_per_dof": 0.9595432399646554,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 0,
+            "grid_points": 8,
+            "max_delta_chi2": 1.172577893314383
+          },
+          "null_chi2_per_dof": 0.9476250455386651,
+          "null_fit_converged": false
+        }
+      },
+      "seed": 73003
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.183106942836048
+          },
+          "injection_chi2_per_dof": 1.0953976019123841,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 2,
+            "grid_points": 8,
+            "max_delta_chi2": 1.0846310808242379
+          },
+          "null_chi2_per_dof": 1.1096536254150553,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.5231373349345176
+          },
+          "injection_chi2_per_dof": 1.0947115450798706,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.4304527162444174
+          },
+          "null_chi2_per_dof": 1.0913597257377925,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73004
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 2,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 1.0473562213969951,
+          "injection_fit_converged": false,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 2.2916848202751225
+          },
+          "null_chi2_per_dof": 1.040888680255343,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.4376524234933186
+          },
+          "injection_chi2_per_dof": 1.0348128620778063,
+          "injection_fit_converged": false,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.652377312707813
+          },
+          "null_chi2_per_dof": 1.0349893369837537,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73005
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 3.2376952646094423
+          },
+          "injection_chi2_per_dof": 1.0325274748879902,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "null_chi2_per_dof": 1.0175167780253922,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 3.654039272285445
+          },
+          "injection_chi2_per_dof": 1.0202485030863502,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 2.730247403294129
+          },
+          "null_chi2_per_dof": 1.0170118425045498,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73006
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 1.0028545853207032,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.7833799930062924
+          },
+          "null_chi2_per_dof": 1.0133950414821022,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 0.9874920135069796,
+          "injection_fit_converged": false,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 4.2606540056917765
+          },
+          "null_chi2_per_dof": 0.9698704322188841,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73007
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.6359304285500684
+          },
+          "injection_chi2_per_dof": 0.9659939709165203,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 5,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "null_chi2_per_dof": 0.9680928404539858,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 0.9568058523502448,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 4,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "null_chi2_per_dof": 0.9608195534078797,
+          "null_fit_converged": false
+        }
+      },
+      "seed": 73008
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 2.840607200620468
+          },
+          "injection_chi2_per_dof": 0.8705114844614101,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.5922724074279699
+          },
+          "null_chi2_per_dof": 0.8561630994843025,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.696150933804688
+          },
+          "injection_chi2_per_dof": 0.8676773604163532,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.0063298531538862
+          },
+          "null_chi2_per_dof": 0.8584884651810492,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73009
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 0.9285712740928207,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "null_chi2_per_dof": 0.9310770456775328,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 0.9175939602591849,
+          "injection_fit_converged": false,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "null_chi2_per_dof": 0.9030131096287581,
+          "null_fit_converged": true
+        }
+      },
+      "seed": 73010
+    },
+    {
+      "models": {
+        "1": {
+          "injection": {
+            "converged_points": 7,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 0.9970178801649326,
+          "injection_fit_converged": true,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 1.5439968101097747
+          },
+          "null_chi2_per_dof": 0.9874329765381727,
+          "null_fit_converged": true
+        },
+        "2": {
+          "injection": {
+            "converged_points": 7,
+            "grid_points": 8,
+            "max_delta_chi2": 0.0
+          },
+          "injection_chi2_per_dof": 0.9707051922731205,
+          "injection_fit_converged": false,
+          "null": {
+            "converged_points": 8,
+            "grid_points": 8,
+            "max_delta_chi2": 0.9915684974109809
+          },
+          "null_chi2_per_dof": 0.9776256932364933,
+          "null_fit_converged": false
+        }
+      },
+      "seed": 73011
+    }
+  ],
+  "source_truth": "two Sersic components, shared ellipticity/center",
+  "summary": {
+    "1": {
+      "injection_recovery_counts": {
+        "10.0": 0,
+        "2.0": 3,
+        "5.0": 0
+      },
+      "injection_scan_points_converged": 89,
+      "n": 12,
+      "null_false_positive_counts": {
+        "10.0": 0,
+        "2.0": 3,
+        "5.0": 0
+      },
+      "null_median_chi2_per_dof": 0.9905202806600861,
+      "null_scan_points_converged": 79
+    },
+    "2": {
+      "injection_recovery_counts": {
+        "10.0": 0,
+        "2.0": 2,
+        "5.0": 0
+      },
+      "injection_scan_points_converged": 95,
+      "n": 12,
+      "null_false_positive_counts": {
+        "10.0": 0,
+        "2.0": 4,
+        "5.0": 0
+      },
+      "null_median_chi2_per_dof": 0.9737480627276887,
+      "null_scan_points_converged": 83
+    }
+  },
+  "thresholds_delta_chi2": [
+    2.0,
+    5.0,
+    10.0
+  ]
+}
