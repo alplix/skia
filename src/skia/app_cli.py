@@ -13,7 +13,7 @@ def _single_core_xla() -> None:
 
     XLA sizes its Eigen pool from the CPU affinity mask at backend start and ignores the thread-count
     environment variables. Pin to the current core while the backend is created, then restore the
-    mask for the main thread (pool threads keep the single-core mask).
+    mask for every thread, so the pool stays small but is not pinned to one core.
     """
     if not hasattr(os, 'sched_setaffinity') or os.environ.get('SKIA_ALL_CORES'): return
     try:
@@ -26,6 +26,13 @@ def _single_core_xla() -> None:
         import jax.numpy as jnp
         jnp.zeros(1).block_until_ready()
     finally:
+        # Pool threads inherited the one-core mask; give every thread the full mask back so the OS can
+        # spread tasks over all cores (otherwise every task stays on the core it started on).
+        try:
+            for tid in os.listdir('/proc/self/task'):
+                try: os.sched_setaffinity(int(tid), full)
+                except (OSError, ValueError): pass
+        except OSError: pass
         try: os.sched_setaffinity(0, full)
         except OSError: pass
 
