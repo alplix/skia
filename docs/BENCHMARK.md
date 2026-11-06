@@ -7,7 +7,9 @@ other bitboinc applications, adapted to a Python and JAX app run by the BOINC wr
 **Status (2026-11-05).** First run on an Apple M4 Pro and in Linux containers (arm64 natively, x86_64 under
 emulation). Two same-results changes are measured and on this branch (Results): the scan reuses the baseline fit for
 the grid points with `alpha_Rs` 0 (SKI-003), and `boinc/job.xml` gives XLA one CPU thread (SKI-002). One
-result-changing speed-up is measured and kept as a patch (SKI-007). The volunteer app itself (the frozen
+result-changing speed-up is measured and kept as a patch (SKI-007). On 2026-11-06 the branch was rebased on
+`upstream/public` (98823a5), where `skia-app` caps XLA at one thread itself through the CPU mask on Linux; the first
+version of that (020bf4f) left every task on CPU 0 (Results, 2026-11-06). The volunteer app itself (the frozen
 `skia_app.tar.gz`) is built outside this repository and was not measured; the suite runs the same code from source
 with the pinned environment.
 
@@ -163,7 +165,7 @@ and fused XLA kernels; SKI-002).
 | # | Change | Kind | State |
 |---|---|---|---|
 | 1 | Reuse the baseline fit for zero-field grid points (SKI-003) | same results | on this branch, measured below |
-| 2 | One XLA CPU thread, `PJRT_NPROC=1` in job.xml (SKI-002) | same results with job.xml's flags | on this branch, measured below |
+| 2 | One XLA CPU thread, `PJRT_NPROC=1` in job.xml (SKI-002; on Linux also `app_cli.py` upstream) | same results with job.xml's flags | on this branch, measured below |
 | 3 | Lens tangents only through the lens equation (SKI-007) | result-changing (last bits) | `patches/split-jacobian.patch`, measured below |
 | 4 | Fewer tangents still: the 6 EPL parameters through the series and the shear by hand | result-changing | not tried |
 | 5 | The real-arithmetic EPL of herculens (`no_complex_numbers=True`) | result-changing (another formula) | not tried |
@@ -285,10 +287,39 @@ Both labels run and write the same `result.txt`, and the new label uses one core
 `PJRT_NPROC` is read by the x86_64 jaxlib too. Not measured: Linux x86_64 on real hardware, and the frozen volunteer
 app with its own library builds.
 
+### Linux arm64 in a container, 2026-11-06: the CPU pinning of `upstream/public` 020bf4f
+
+`BASE_REF=upstream/public COPIES=12 ARCH=arm64 scripts/bench/linux_ab.sh 3 sim`, run when `upstream/public` was
+020bf4f: the container of 2026-11-05 (Docker Desktop 29.9.2, 12 CPUs, image `sha256:af8a5aa14780...`, Python 3.14.10,
+jax and jaxlib 0.12.0.1), BOINC client's tasks suspended, load average in the VM 0.00 at the start (the Mac's 4.8).
+`base` is 020bf4f, whose `app_cli.py` narrows the CPU mask to one core while XLA starts (SKI-002); `new` was this
+branch rebased on it, which then set `PJRT_NPROC=1` in `app_cli.py` and job.xml instead of narrowing the mask. Twelve
+copies at once, as the BOINC client runs one-CPU tasks; time for the batch, 3 interleaved rounds:
+
+| Label | Batch | CPU (sum) | Verdict | Output |
+|---|---|---|---|---|
+| `base` (020bf4f) | 131.44 s (131.13-136.03) | 161.2 s | | |
+| `new` | 22.12 s (22.05-22.42) | 229.1 s | 5.94x, ACCEPT | same (`fc972885afc7`, the single-thread file of SKI-001) |
+
+In `base` the XLA threads of every task were pinned to CPU 0 (Python has no `os.sched_getcpu`, so 020bf4f took the
+lowest core); the main thread got its full mask back, so the XLA work of all twelve tasks queued on one core while the
+others mostly idled. `new` used more CPU in total because twelve busy cores each run slower than one, as in the macOS
+batch above. `tests/test_app_cli.py` found the same pinning under x86_64 emulation. For an app version built from
+020bf4f, `SKIA_ALL_CORES=1` and `PJRT_NPROC=1` in job.xml give one thread per XLA pool with every thread free (checked
+from source in the arm64 and x86_64 containers, not with the frozen app).
+
+The maintainer's 98823a5, the same day, gives every thread the full mask back after XLA starts, and this branch now
+keeps that `app_cli.py` unchanged: `tests/test_app_cli.py` passes on it in the arm64 and x86_64 containers (one thread
+per XLA pool, every thread free), and in a quick check, not a benchmark (one run, load average 3.6, a probe timing a
+jitted matrix product), six tasks at once each took 0.21 s against 0.17 s alone, as with `PJRT_NPROC=1` (0.20 s).
+`BASE_REF=upstream/public ARCH=arm64 scripts/bench/linux_ab.sh 1 sim` against 98823a5 gave the same `result.txt`
+(`fc972885afc7`), and 98823a5 alone used one core (12.5 s CPU in 12.9 s). The twelve-task batch was not repeated
+against 98823a5.
+
 ### Next steps (plan of 2026-11-05)
 
-1. Maintainers: review SKI-003 (reuse) and SKI-002 (one XLA thread); decide SKI-007 (split Jacobian) and SKI-001
-   (thread flag for the CLIs).
+1. Maintainers: review SKI-003 (reuse) and SKI-002 (one XLA thread: `PJRT_NPROC=1` in job.xml next to `app_cli.py`'s
+   CPU mask); decide SKI-007 (split Jacobian) and SKI-001 (thread flag for the CLIs).
 2. Rebuild the volunteer app from this branch and check on a Linux x86_64 host that a task uses one core and gives the
    `result.txt` of the old app (same environment, same bundle).
 3. Measure SKI-006 (the per-task unpacking) with the real archive; wire SKI-004 and SKI-005 into job.xml and test them

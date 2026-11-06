@@ -39,7 +39,7 @@ Review, rebase if needed, merge.
 
 | ID | Sev | Area | Problem | Next step |
 |---|---|---|---|---|
-| [SKI-002] | med | performance | skia-app uses about 1.6 cores although BOINC counts it as one CPU | Review PJRT_NPROC=1 in boinc/job.xml; check the frozen app reads it (jaxlib 0.12.0.1 does) on a Linux host |
+| [SKI-002] | med | performance | skia-app uses about 1.6 cores although BOINC counts it as one CPU | Review PJRT_NPROC=1 in job.xml next to app_cli.py's CPU mask (98823a5); check the frozen app on a Linux host |
 | [SKI-003] | med | performance | A third of every task repeats the baseline fit: grid points with alpha_Rs 0 | Review the reuse of the baseline fit for zero-field points in scan() |
 
 ## Shared patterns in this repository
