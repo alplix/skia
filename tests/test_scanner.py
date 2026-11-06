@@ -116,3 +116,27 @@ def test_scan_cli_invalid_baseline(tmp_path,capsys):
     fp.write_text('[]')
     assert main([str(fp),str(cp),'--grid',str(grid),'-o',str(tmp_path/'out')])==2
     assert 'Baseline must be a mapping' in capsys.readouterr().err
+
+
+def test_zero_field_points_reuse_the_baseline_fit_bit_for_bit(tmp_path,monkeypatch):
+    # alpha_Rs 0 gives an all-zero field, the baseline problem again: scan() reuses the baseline fit for it (SKI-003).
+    # The rows must equal those of fitting every point, also when a resume has lost the baseline fit from memory.
+    import skia.scanner as scanner
+    s=simulate(observation=Observation(npix=20),subhalo=Subhalo(center_x=.4,center_y=.2),seed=12)
+    cp=tmp_path/'c.npz';save_simulation(s,cp);cut=load_cutout(cp)
+    fp=tmp_path/'fit.json';save_fit(fit_cutout(cut,FitConfig(starts=2,max_nfev=80)),fp);payload=json.loads(fp.read_text())
+    grid={'profile':'TNFW','Rs_arcsec':.2,'r_trunc_arcsec':.8,'x_arcsec':[.4],'y_arcsec':[.2,-.2],'alpha_Rs_arcsec':[0.,.02]}
+    calls=[];real_fit=scanner.fit_cutout
+    monkeypatch.setattr(scanner,'fit_cutout',lambda *a,**k:calls.append(1) or real_fit(*a,**k))
+    reused=scan(cut,payload,grid)
+    assert len(calls)==1+2  # the baseline and the two points with alpha_Rs 0.02
+    with monkeypatch.context() as m:
+        m.setattr(scanner,'_is_zero_field',lambda field:False)
+        fitted=scan(cut,payload,grid)
+    assert reused['results']==fitted['results'] and reused['baseline_chi2']==fitted['baseline_chi2']
+    assert [r['delta_chi2'] for r in reused['results'] if r['alpha_Rs_arcsec']==0]==[0.,0.]
+    checkpoint=tmp_path/'scan.checkpoint.json';scan(cut,payload,grid,checkpoint_path=checkpoint)
+    saved=json.loads(checkpoint.read_text());saved['results']=saved['results'][:1];checkpoint.write_text(json.dumps(saved))
+    resumed=scan(cut,payload,grid,checkpoint_path=checkpoint)
+    assert resumed['results']==reused['results']
+    np.testing.assert_array_equal(halo_deflection_field(cut,.4,.2,0.,.2,.8).view(np.uint64),0)
