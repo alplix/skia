@@ -1,0 +1,6 @@
+# Real Q1 VIS cutout among the slower sixth of the B6 timing (51.4 s, docs/b6-185).
+# Public data, not in the repository: docs/fetch_q1_cutouts.py, docs/DATA.md.
+cutout q1 102159186_2631794504660304436_VIS.fits
+x -0.6
+y -0.6 0.6
+alpha 0 0.02 0.05
