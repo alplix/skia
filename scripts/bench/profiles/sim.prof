@@ -1,0 +1,8 @@
+# Simulated cutout shaped like a Q1 VIS cutout (make_bench_data.py), so the suite runs without downloads.
+# 6 grid points with the alpha_Rs values of boinc/make_tasks.py: one point in three has alpha_Rs 0, as in a real task.
+cutout sim
+seed 20261105
+theta_E 0.7
+x -0.6
+y -0.6 0.6
+alpha 0 0.02 0.05
