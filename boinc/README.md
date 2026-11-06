@@ -1,6 +1,10 @@
 # Skia BOINC wrapper (Linux x86_64, glibc >= 2.31)
 - `skia_wrapper`: stock BOINC 8.2.15 samples/wrapper built in Debian 11 chroot (max GLIBC_2.29, libstdc++ static); zip support stubbed (unused).
 - `job.xml`: task 1 unpacks `skia_app.tar.gz` with /bin/tar, task 2 runs `skia_app/skia_app task.zip -o result.txt`.
+- Task 2's environment keeps the app on one CPU, as BOINC counts it: `PJRT_NPROC=1` gives XLA one CPU thread (by default it
+  starts one per core, and the `OMP`/`OPENBLAS`/`MKL` variables do not reach it), and `--xla_cpu_multi_thread_eigen=false`
+  keeps the results independent of the thread count, so volunteers with different core counts get the same digits
+  (measured 2026-11-05, docs/BENCHMARK.md; KB SKI-001, SKI-002). Keep both.
 - Version files: skia_wrapper (main), skia_app.tar.gz (175,798,226 B), job.xml. Templates: skia_in.xml / skia_out.xml (draft, not deployed).
 - Tested: slot dir with symlinks, smoke task, result sha256 2170e827...cacb identical to direct run (~1.6 min, 4 cores).
 - Not done: server registration, Windows/macOS, progress reporting (weights only), licence clearance.
