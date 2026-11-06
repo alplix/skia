@@ -107,14 +107,15 @@ Break one of these and results become silently wrong or stop matching between vo
 * `boinc/job.xml` task 2 sets `OMP_NUM_THREADS`, `OPENBLAS_NUM_THREADS`, `MKL_NUM_THREADS` to 1,
   `XLA_FLAGS=--xla_cpu_multi_thread_eigen=false` and, on this branch, `PJRT_NPROC=1` (one XLA CPU thread, SKI-002).
   Until this branch the XLA_FLAGS value also held `intra_op_parallelism_threads=1`, which is not an XLA flag and was
-  ignored.
+  ignored. On Linux `app_cli.py` also caps XLA at one thread itself (`upstream/public`): it narrows the CPU mask to
+  one core while XLA starts, then gives every thread the full mask back; `SKIA_ALL_CORES=1` skips that.
 * Dependency licences: `scripts/audit_environment.py` (docs/LICENSES.md); clearance is still open (README).
 
 ## Tests
 
-* `make test PYTHON=<venv python>`: 114 tests in 25 s on an Apple M4 Pro (2026-11-05). Five of them start the
-  installed console scripts (`skia-fit`) or scripts in subprocesses, so the package must be installed in the
-  environment (the README's editable install; with `PYTHONPATH=src` the subprocesses use this checkout's code).
+* `make test PYTHON=<venv python>`: 116 tests in 30 s on an Apple M4 Pro, one of them Linux-only (2026-11-06).
+  Five start the installed console scripts (`skia-fit`) or scripts in subprocesses, so the package must be installed
+  in the environment (the README's editable install; with `PYTHONPATH=src` the subprocesses use this checkout's code).
 * Any change: `make test`, then a task bundle run before and after and `cmp` of `result.txt`, with job.xml's
   environment (`scripts/bench/build_variant.sh` writes a `run` script that sets it).
 * Checkpoint change: stop a run after a few `PROGRESS` lines, start it again, `cmp` with an uninterrupted run
@@ -128,6 +129,10 @@ Break one of these and results become silently wrong or stop matching between vo
 * XLA's CPU client starts one worker thread per core; FFTs (ducc0) and fused kernels run on them, so one `skia-app`
   used about 1.6 cores on an M4 Pro. `PJRT_NPROC` (or `NPROC`) sets that number; no XLA flag does, and
   `OMP_NUM_THREADS` does not reach it (SKI-002).
+* XLA also sizes its pools from the CPU mask (that is how `app_cli.py` gets one thread on Linux), but pool threads
+  keep a mask narrowed while they start. 020bf4f did not give it back, and Python has no `os.sched_getcpu`, so every
+  task ran its XLA work on CPU 0: twelve tasks at once took 5.94x as long (2026-11-06, Linux arm64 container; SKI-002).
+  98823a5 gives every thread the full mask back; `tests/test_app_cli.py` checks the pool sizes and the masks.
 * `XLA_FLAGS`: an unknown `--flag` ends the process with exit code 1 and an `F`-level "Unknown flag in XLA_FLAGS" line
   (jaxlib 0.12.0.1, macOS, 2026-11-05; also for names that appear in jaxlib's strings, such as
   `--xla_cpu_disable_loop_unrolling`), so a typo in job.xml fails every task; a word without `--` is ignored without a
