@@ -235,6 +235,7 @@ def scan(cutout: Cutout, baseline: dict, grid: dict, *,
     fingerprint=_checkpoint_fingerprint(cutout,baseline,grid,config)
     checkpoint=Path(checkpoint_path) if checkpoint_path is not None else None
     saved=None
+    zero_field_fit=None
     if checkpoint is not None and checkpoint.exists():
         try: saved=json.loads(checkpoint.read_text(encoding='utf-8'))
         except (OSError,json.JSONDecodeError) as error: raise ValueError(f'Invalid scan checkpoint: {error}') from error
@@ -253,14 +254,25 @@ def scan(cutout: Cutout, baseline: dict, grid: dict, *,
         rows=[]
         base=fit_cutout(cutout,config,initial_vector=base_vector)
         baseline_chi2=base.chi2;baseline_converged=base.converged;baseline_parameters=base.parameters
+        zero_field_fit=base
         if checkpoint is not None:
             saved={'format':'skia-checkpoint-v1','fingerprint':fingerprint,'baseline_chi2':baseline_chi2,
                    'baseline_converged':baseline_converged,'baseline_parameters':baseline_parameters,'results':rows}
             _save_checkpoint(saved,checkpoint)
+    # A grid point whose field is all +0.0 (alpha_Rs_arcsec 0, a third of every task) is the baseline problem again:
+    # the same data, start vector, configuration and seed, and the baseline's field is jnp.zeros of the same shape.
+    # The fit is deterministic (docs/P3_DETERMINISM.md), so its result is the baseline's bit for bit and is reused.
+    # After a resume the baseline fit is not in memory: the first zero-field point is fitted and reused after that.
     remaining=points[len(rows):]
     def complete_point(index,point,field):
+        nonlocal zero_field_fit
         x,y,strength=point
-        result=fit_cutout(cutout,config,initial_vector=base_vector,deflection_field=field)
+        if _is_zero_field(field):
+            if zero_field_fit is None:
+                zero_field_fit=fit_cutout(cutout,config,initial_vector=base_vector,deflection_field=field)
+            result=zero_field_fit
+        else:
+            result=fit_cutout(cutout,config,initial_vector=base_vector,deflection_field=field)
         rows.append({'x_arcsec':float(x),'y_arcsec':float(y),'alpha_Rs_arcsec':float(strength),
                      'chi2':result.chi2,'delta_chi2':baseline_chi2-result.chi2,'converged':result.converged,
                      'boundary_parameters':list(result.boundary_parameters),'parameters':result.parameters,
@@ -284,6 +296,12 @@ def scan(cutout: Cutout, baseline: dict, grid: dict, *,
     return {'format':'skia-scan-v1','profile':'spherical-TNFW','strength_parameter':'alpha_Rs_arcsec',
             'mass_unit':'not-calibrated','baseline_chi2':baseline_chi2,'baseline_converged':baseline_converged,
             'baseline_parameters':baseline_parameters,'grid':grid,'best':best,'results':rows}
+
+
+def _is_zero_field(field) -> bool:
+    """Whether every deflection value is +0.0 (bit pattern 0), the field the baseline fit uses."""
+    values=np.ascontiguousarray(field)
+    return values.dtype==np.float64 and not values.view(np.uint64).any()
 
 
 def save_scan(result: dict,path: str|Path) -> None:
