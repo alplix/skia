@@ -37,6 +37,24 @@ def _single_core_xla() -> None:
         except OSError: pass
 
 
+def _select_boinc_gpu() -> None:
+    """GPU build only (SKIA_GPU=1): use the device BOINC assigned to this slot.
+
+    The client writes <gpu_device_num> into init_data.xml in the slot directory; restrict CUDA to that
+    device and let JAX allocate GPU memory on demand so several tasks can share one card.
+    """
+    if not os.environ.get('SKIA_GPU'): return
+    os.environ.setdefault('XLA_PYTHON_CLIENT_PREALLOCATE', 'false')
+    if 'CUDA_VISIBLE_DEVICES' in os.environ: return
+    try:
+        import re
+        text = Path('init_data.xml').read_text(errors='replace')
+        match = re.search(r'<gpu_device_num>\s*(\d+)\s*</gpu_device_num>', text)
+        if match: os.environ['CUDA_VISIBLE_DEVICES'] = match.group(1)
+    except OSError: pass
+
+
+_select_boinc_gpu()
 _single_core_xla()
 
 from skia.scanner import scan, save_scan
