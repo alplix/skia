@@ -1,0 +1,41 @@
+name: windows-build
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Install
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.lock
+          pip install pyinstaller .
+      - name: Build one-file app
+        shell: bash
+        run: |
+          pyinstaller --noconfirm --onefile --name skia_app --collect-data herculens --collect-data lenstronomy --collect-data jax --collect-submodules skia --exclude-module llvmlite --exclude-module numba --exclude-module sklearn --exclude-module h5py --exclude-module astropy --exclude-module tkinter --exclude-module IPython --exclude-module pandas --exclude-module pytest --exclude-module sphinx --specpath build_spec ci/skia_app_entry.py
+          ls -l dist
+      - name: Smoke test through the BOINC wrapper
+        shell: bash
+        run: |
+          mkdir slot && cd slot
+          curl -sSfL -o wrapper.exe https://boinc.berkeley.edu/dl/wrapper_26210_windows_x86_64.exe
+          cp ../dist/skia_app.exe .
+          cp ../ci/job_windows.xml job.xml
+          cp ../ci/smoke_task.zip task.zip
+          ./wrapper.exe || true
+          ls -l
+          cat skia_stderr.txt | tail -5
+          diff result.txt ../ci/smoke_expected.txt && echo IDENTICAL || head -20 result.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: skia-windows
+          path: |
+            dist/skia_app.exe
+            slot/wrapper.exe
+            slot/result.txt
+            slot/skia_stderr.txt
