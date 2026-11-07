@@ -1,0 +1,6 @@
+# Real Q1 VIS cutout near the median of the B6 timing (39.1 s); the cutout of the P3 smoke check (docs/P3_DETERMINISM.md).
+# Public data, not in the repository: docs/fetch_q1_cutouts.py, docs/DATA.md.
+cutout q1 102018665_NEG570040238507752998_VIS.fits
+x -0.6
+y -0.6 0.6
+alpha 0 0.02 0.05

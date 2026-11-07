@@ -1,0 +1,6 @@
+# A whole production task: the first bundle boinc/make_tasks.py makes for a lens (grid columns x -1.0 and -0.8,
+# y -1.0 to 1.0 in steps of 0.2, alpha_Rs 0, 0.02, 0.05: 66 points), on the cutout of q1-mid.
+cutout q1 102018665_NEG570040238507752998_VIS.fits
+x -1.0 -0.8
+y -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0
+alpha 0 0.02 0.05

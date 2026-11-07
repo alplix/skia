@@ -80,6 +80,8 @@ The complete workflow is in [docs/USAGE.md](docs/USAGE.md); file contracts are i
 | `tests/` | unit tests, recovery tests, lenstronomy cross-checks, Q1 injection studies |
 | `docs/` | method notes, reports, data and license notes |
 | `boinc/` | volunteer-client packaging: wrapper notes, `job.xml`, templates, task builder |
+| `scripts/bench/` | speed A/B of `skia-app` as the wrapper runs it ([docs/BENCHMARK.md](docs/BENCHMARK.md)) |
+| `docs/kb/` | knowledge base: known bugs and platform traps, patterns shared with the other bitboinc apps ([AGENTS.md](AGENTS.md)) |
 
 ## Reports
 
@@ -87,6 +89,7 @@ The complete workflow is in [docs/USAGE.md](docs/USAGE.md); file contracts are i
 - [P2 injection, false-positive and S/N study](docs/P2_INJECTIONS.md), [decision report](docs/P2_REPORT.md)
 - [P2 cost measurements](docs/P2_COST.md)
 - [Determinism and packaging](docs/P3_DETERMINISM.md), [docs/P3_PACKAGING.md](docs/P3_PACKAGING.md)
+- [Speed benchmark: method, profile, results](docs/BENCHMARK.md)
 
 ## License
 
