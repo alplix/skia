@@ -27,7 +27,8 @@ jobs:
         shell: bash
         run: |
           mkdir slot && cd slot
-          curl -sSfL -o wrapper.exe https://boinc.berkeley.edu/dl/wrapper_26210_windows_x86_64.exe
+          curl -sSfL -o wrapper.zip https://boinc.berkeley.edu/dl/wrapper_26016_windows_x86_64.zip
+          python -c "import zipfile;z=zipfile.ZipFile('wrapper.zip');n=[x for x in z.namelist() if x.endswith('.exe')][0];open('wrapper.exe','wb').write(z.read(n));print(n)"
           cp ../dist/skia_app.exe .
           cp ../ci/job_windows.xml job.xml
           cp ../ci/smoke_task.zip task.zip
@@ -43,3 +44,4 @@ jobs:
             slot/wrapper.exe
             slot/result.txt
             slot/skia_stderr.txt
+# run 2
