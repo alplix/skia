@@ -1,5 +1,9 @@
 name: windows-build
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches: [public]
+    paths: ['.github/workflows/windows.yml']
 jobs:
   build:
     runs-on: windows-latest
