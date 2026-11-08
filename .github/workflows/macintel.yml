@@ -1,0 +1,58 @@
+name: macos-intel-build
+on:
+  workflow_dispatch:
+  push:
+    branches: [public]
+    paths: ['.github/workflows/macintel.yml']
+jobs:
+  build:
+    runs-on: macos-15-intel
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install (jax 0.4.38, the last jaxlib with Intel Mac wheels)
+        run: |
+          uname -m
+          python -m pip install --upgrade pip
+          grep -v -E '^(jax|jaxlib|ml_dtypes|numba|llvmlite)==' requirements.lock > req_intel.txt
+          pip install -r req_intel.txt || pip install --no-deps -r req_intel.txt
+          pip install jax==0.4.38 jaxlib==0.4.38 'ml_dtypes>=0.4,<0.6' pyinstaller
+          pip install --no-deps --ignore-requires-python .
+          python -c "import jax,jaxlib,numpy;print(jax.__version__,jaxlib.__version__,numpy.__version__)"
+      - name: Quick numeric check (no packaging)
+        run: |
+          python -m skia.app_cli ci/smoke_task.zip -o direct.txt 2> direct.err || true
+          tail -3 direct.err
+          python - <<'PY'
+          def rows(p): return [l.split() for l in open(p).read().splitlines() if l and not l.startswith(('#','x_'))]
+          a=rows('direct.txt'); b=rows('ci/smoke_expected.txt')
+          m=max(abs(float(x)-float(y))/(abs(float(y))+1e-9) for u,v in zip(a,b) for x,y in zip(u,v))
+          print('rows',len(a),len(b),'max rel diff',m)
+          PY
+      - name: Build onedir app
+        run: |
+          pyinstaller --noconfirm --onedir --name skia_app --collect-data herculens --collect-data lenstronomy --collect-data jax --collect-submodules skia --exclude-module llvmlite --exclude-module numba --exclude-module sklearn --exclude-module h5py --exclude-module astropy --exclude-module tkinter --exclude-module IPython --exclude-module pandas --exclude-module pytest --exclude-module sphinx --specpath build_spec ci/skia_app_entry.py
+          cd dist && tar czf ../skia_app_macintel.tar.gz skia_app && cd ..
+          ls -l skia_app_macintel.tar.gz
+      - name: Smoke test through the BOINC wrapper
+        run: |
+          mkdir slot && cd slot
+          curl -sSfL -o wrapper.zip https://boinc.berkeley.edu/dl/wrapper_26017_universal-apple-darwin.zip
+          unzip -o -q wrapper.zip; ls
+          W=$(ls | grep -E '^wrapper' | grep -v zip | head -1); cp "$W" wrapper; chmod +x wrapper
+          cp ../skia_app_macintel.tar.gz skia_app.tar.gz
+          cp ../ci/job_macintel.xml job.xml
+          cp ../ci/smoke_task.zip task.zip
+          ./wrapper || true
+          tail -3 skia_stderr.txt
+          diff result.txt ../ci/smoke_expected.txt && echo IDENTICAL || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: skia-macintel
+          path: |
+            skia_app_macintel.tar.gz
+            slot/wrapper
+            slot/result.txt
+            slot/skia_stderr.txt
