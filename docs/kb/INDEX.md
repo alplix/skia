@@ -1,6 +1,6 @@
 # skia: knowledge base index
 
-7 issues: 7 open (2 fix, 2 decide, 1 verify, 2 review), 0 note(s), 0 closed. Shared patterns here: 2 affected, 0 fixed, 31 clear, 0 unchecked.
+7 issues: 7 open (2 fix, 2 decide, 1 verify, 2 review), 0 note(s), 0 closed. Shared patterns here: 2 affected, 0 fixed, 32 clear, 0 unchecked.
 
 Work from the top: pick an issue, read its file, and its pattern's "How to fix" if it has one. Coding
 agents: `python3 docs/kb/shared/kb.py list --open --action fix` prints the same, one line per issue, and
@@ -39,7 +39,7 @@ Review, rebase if needed, merge.
 
 | ID | Sev | Area | Problem | Next step |
 |---|---|---|---|---|
-| [SKI-002] | med | performance | skia-app uses about 1.6 cores although BOINC counts it as one CPU | Review PJRT_NPROC=1 in job.xml next to app_cli.py's CPU mask (98823a5); check the frozen app on a Linux host |
+| [SKI-002] | med | performance | skia-app uses about 1.6 cores although BOINC counts it as one CPU | Review PJRT_NPROC=1 in job.xml next to app_cli.py's CPU mask (98823a5); the same for ci/job_windows.xml and ci/job_macintel.xml (2cd66b6) |
 | [SKI-003] | med | performance | A third of every task repeats the baseline fit: grid points with alpha_Rs 0 | Review the reuse of the baseline fit for zero-field points in scan() |
 
 ## Shared patterns in this repository
@@ -49,7 +49,7 @@ Bug classes found in any bitboinc application ([shared/patterns](shared/patterns
 - Affected: [PAT-004], [PAT-018]
 - Fixed here: none
 - Unchecked: none
-- Checked and clear (not affected, or not applicable): PAT-001, PAT-002, PAT-003, PAT-005, PAT-006, PAT-007, PAT-008, PAT-009, PAT-010, PAT-011, PAT-012, PAT-013, PAT-014, PAT-015, PAT-016, PAT-017, PAT-019, PAT-020, PAT-021, PAT-022, PAT-023, PAT-024, PAT-025, PAT-026, PAT-027, PAT-028, PAT-029, PAT-030, PAT-031, PAT-032, PAT-033
+- Checked and clear (not affected, or not applicable): PAT-001, PAT-002, PAT-003, PAT-005, PAT-006, PAT-007, PAT-008, PAT-009, PAT-010, PAT-011, PAT-012, PAT-013, PAT-014, PAT-015, PAT-016, PAT-017, PAT-019, PAT-020, PAT-021, PAT-022, PAT-023, PAT-024, PAT-025, PAT-026, PAT-027, PAT-028, PAT-029, PAT-030, PAT-031, PAT-032, PAT-033, PAT-034
 
 ## Open issues by platform
 

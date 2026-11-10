@@ -7,7 +7,7 @@ severity: medium
 platforms: [all]
 area: performance
 action: review
-next: Review PJRT_NPROC=1 in job.xml next to app_cli.py's CPU mask (98823a5); check the frozen app on a Linux host
+next: Review PJRT_NPROC=1 in job.xml next to app_cli.py's CPU mask (98823a5); the same for ci/job_windows.xml and ci/job_macintel.xml (2cd66b6)
 blocked_by: []
 pattern:
 aliases: []
@@ -73,3 +73,11 @@ task-sim`; `linux_ab.sh` for Linux. Not checked: that the frozen volunteer app (
 - 2026-11-05: created.
 - 2026-11-06: upstream `public` 020bf4f pinned XLA's threads to the lowest core; 98823a5 gives them the full mask
   back. The branch, rebased on 98823a5, keeps that `app_cli.py`, `PJRT_NPROC=1` in job.xml and a test of the masks.
+- 2026-11-10: rebased on `upstream/public` 2cd66b6 (2026-11-08): GPU device selection behind `SKIA_GPU=1` and the
+  Windows and macOS Intel build workflows; the CPU mask code of `app_cli.py` is unchanged and the tests pass (macOS,
+  115 passed, the Linux mask test skipped). The new `ci/job_windows.xml` and `ci/job_macintel.xml` set no `PJRT_NPROC`,
+  and on Windows and macOS `app_cli.py` cannot narrow the mask (no `sched_setaffinity`), so an app run with them would start
+  one XLA thread per core, as job.xml did before this branch (seen on macOS, above; Windows not run); `ci/job_windows.xml` also carries
+  `intra_op_parallelism_threads=1` again, which XLA ignores. Not changed here: those are the maintainer's new CI files,
+  the Windows build is not run here, and that jaxlib 0.4.38 (the macOS Intel build) reads `PJRT_NPROC` was not checked.
+  Still to check: the frozen app on a Linux host.

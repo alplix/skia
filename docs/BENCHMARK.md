@@ -9,7 +9,9 @@ emulation). Two same-results changes are measured and on this branch (Results): 
 the grid points with `alpha_Rs` 0 (SKI-003), and `boinc/job.xml` gives XLA one CPU thread (SKI-002). One
 result-changing speed-up is measured and kept as a patch (SKI-007). On 2026-11-06 the branch was rebased on
 `upstream/public` (98823a5), where `skia-app` caps XLA at one thread itself through the CPU mask on Linux; the first
-version of that (020bf4f) left every task on CPU 0 (Results, 2026-11-06). The volunteer app itself (the frozen
+version of that (020bf4f) left every task on CPU 0 (Results, 2026-11-06). On 2026-11-10 it was rebased again, on
+2cd66b6 (GPU device selection, Windows and macOS Intel build workflows; the CPU path is unchanged, the tests pass); the
+measurements were not repeated. The volunteer app itself (the frozen
 `skia_app.tar.gz`) is built outside this repository and was not measured; the suite runs the same code from source
 with the pinned environment.
 

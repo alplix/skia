@@ -44,3 +44,4 @@ When code that a row describes changes a lot, check the pattern again and update
 | PAT-031 | n/a | 2026-11-05 | a88de16 |  | Python; no thread_local or __thread (git grep) |
 | PAT-032 | n/a | 2026-11-05 | a88de16 |  | no C or C++ hot loop; the app is Python, NumPy and XLA, and no macOS build is shipped |
 | PAT-033 | n/a | 2026-11-05 | a88de16 |  | CPU only: no GPU, CUDA or OpenCL code (JAX_PLATFORMS=cpu, requirements.lock has CPU jaxlib) |
+| PAT-034 | not-affected | 2026-11-10 | 99c579e |  | boinc/skia_in.xml:4-5: rsc_fpops_est 2e12, rsc_fpops_bound 2e14 (100x); measured task cost spread 4.9x (task-sim 62.7 s, a real 66-point task 304 s, docs/BENCHMARK.md 2026-11-05) |
