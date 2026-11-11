@@ -1,0 +1,7 @@
+# A whole production task (66 points, the grid of task.prof) on the simulated cutout of sim.prof: runs without downloads.
+cutout sim
+seed 20261105
+theta_E 0.7
+x -1.0 -0.8
+y -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0
+alpha 0 0.02 0.05
