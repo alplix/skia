@@ -14,7 +14,8 @@ dist/
 
 boinc/skia_wrapper
 
-# internal working notes (kept locally, not published); AGENTS.md is tracked since 2026-11-05
+# internal working notes (kept locally, not published)
+AGENTS.md
 PLAN.md
 STATUS.md
 TASKS.md

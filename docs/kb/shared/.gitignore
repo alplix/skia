@@ -1,3 +1,0 @@
-# Python caches (kb.py is sometimes imported as a module)
-__pycache__/
-*.py[cod]

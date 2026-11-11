@@ -81,7 +81,6 @@ The complete workflow is in [docs/USAGE.md](docs/USAGE.md); file contracts are i
 | `docs/` | method notes, reports, data and license notes |
 | `boinc/` | volunteer-client packaging: wrapper notes, `job.xml`, templates, task builder |
 | `scripts/bench/` | speed A/B of `skia-app` as the wrapper runs it ([docs/BENCHMARK.md](docs/BENCHMARK.md)) |
-| `docs/kb/` | knowledge base: known bugs and platform traps, patterns shared with the other bitboinc apps ([AGENTS.md](AGENTS.md)) |
 
 ## Reports
 
